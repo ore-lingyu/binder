@@ -1,0 +1,691 @@
+2021-06-20 22:56:21.406 3115-3115/com.panzq.applicationb I/test: rootclient send cmd to rootServer cmd = ./system/bin/bootanimation
+
+    --------- beginning of system
+2021-06-20 22:56:21.406 1535-3077/system_process D/ActivityManager: Not moving, already top other: ProcessRecord{e5ef7f6 2894:com.android.shell/2000}
+2021-06-20 22:56:21.406 1535-3077/system_process D/ActivityManager: Making empty: ProcessRecord{e5ef7f6 2894:com.android.shell/2000}
+2021-06-20 22:56:21.406 1535-3077/system_process D/ActivityManager: Making top: ProcessRecord{ccc7e95 3115:com.panzq.applicationb/u0a63}
+2021-06-20 22:56:21.406 1535-3077/system_process D/ActivityManager: Raise to provider-top: ProcessRecord{e5ef7f6 2894:com.android.shell/2000}, due to ProcessRecord{ccc7e95 3115:com.panzq.applicationb/u0a63} adj=0 procState=17
+2021-06-20 22:56:21.406 1535-3077/system_process D/ActivityManager: May be top raise to provider-top: ProcessRecord{e5ef7f6 2894:com.android.shell/2000}, due to ProcessRecord{ccc7e95 3115:com.panzq.applicationb/u0a63} adj=0 procState=2
+2021-06-20 22:56:21.407 1535-3077/system_process D/ActivityManager: Set 2894 com.android.shell adj 0: provider-top
+2021-06-20 22:56:21.410 1535-3077/system_process D/ActivityManager: Setting sched group of com.android.shell to 1
+2021-06-20 22:56:21.410 1535-3077/system_process D/ActivityManager: Process state change from CEM  to TOP  next pss in 10000: ProcessRecord{e5ef7f6 2894:com.android.shell/2000}
+2021-06-20 22:56:21.410 1535-3077/system_process D/ActivityManager: Proc state change of com.android.shell to 2
+2021-06-20 22:56:21.410 1535-3077/system_process D/ActivityManager: Checking proc [[com.android.shell]] state changes: old = 17, new = 2
+2021-06-20 22:56:21.415 1535-3077/system_process D/ActivityManager: Making top: ProcessRecord{ccc7e95 3115:com.panzq.applicationb/u0a63}
+2021-06-20 22:56:21.415 1535-3077/system_process D/ActivityManager: Making empty: ProcessRecord{a398903 1633:com.android.inputmethod.latin/u0a56}
+2021-06-20 22:56:21.415 1535-3077/system_process D/ActivityManager: Making fixed: ProcessRecord{ac17fb7 1535:system/1000}
+2021-06-20 22:56:21.415 1535-3077/system_process D/ActivityManager: Raise to service: ProcessRecord{a398903 1633:com.android.inputmethod.latin/u0a56}, due to ProcessRecord{ac17fb7 1535:system/1000} adj=100 procState=7
+2021-06-20 22:56:21.415 1535-3077/system_process D/ActivityManager: Making empty: ProcessRecord{3b1094a 2026:com.android.launcher/u0a15}
+2021-06-20 22:56:21.415 1535-3077/system_process D/ActivityManager: Raise to cached activity: ProcessRecord{3b1094a 2026:com.android.launcher/u0a15}
+2021-06-20 22:56:21.415 1535-3077/system_process D/ActivityManager: Raise to home: ProcessRecord{3b1094a 2026:com.android.launcher/u0a15}
+2021-06-20 22:56:21.415 1535-3077/system_process D/ActivityManager: Raise to home: ProcessRecord{3b1094a 2026:com.android.launcher/u0a15}
+2021-06-20 22:56:21.415 1535-3077/system_process D/ActivityManager: Making empty: ProcessRecord{e5ef7f6 2894:com.android.shell/2000}
+2021-06-20 22:56:21.415 1535-3077/system_process D/ActivityManager: Raise to provider-top: ProcessRecord{e5ef7f6 2894:com.android.shell/2000}, due to ProcessRecord{ccc7e95 3115:com.panzq.applicationb/u0a63} adj=0 procState=17
+2021-06-20 22:56:21.415 1535-3077/system_process D/ActivityManager: May be top raise to provider-top: ProcessRecord{e5ef7f6 2894:com.android.shell/2000}, due to ProcessRecord{ccc7e95 3115:com.panzq.applicationb/u0a63} adj=0 procState=2
+2021-06-20 22:56:21.415 1535-3077/system_process D/ActivityManager: Making empty: ProcessRecord{261a3b4 2606:com.android.defcontainer/u0a6}
+2021-06-20 22:56:21.415 1535-3077/system_process D/ActivityManager: Making empty: ProcessRecord{7b2bcfe 2160:android.process.acore/u0a1}
+2021-06-20 22:56:21.415 1535-3077/system_process D/ActivityManager: Making empty: ProcessRecord{c0c7a26 2636:com.android.gallery3d/u0a46}
+2021-06-20 22:56:21.415 1535-3077/system_process D/ActivityManager: Making empty: ProcessRecord{24bfd64 2095:com.android.keychain/1000}
+2021-06-20 22:56:21.415 1535-3077/system_process D/ActivityManager: Making empty: ProcessRecord{17c2ac3 2244:com.android.dialer/u0a14}
+2021-06-20 22:56:21.415 1535-3077/system_process D/ActivityManager: Set 2244 com.android.dialer adj 900: cch-empty
+2021-06-20 22:56:21.415 1535-3077/system_process D/ActivityManager: Making empty: ProcessRecord{323766a 2212:com.android.providers.calendar/u0a2}
+2021-06-20 22:56:21.415 1535-3077/system_process D/ActivityManager: Making empty: ProcessRecord{9c37022 2267:com.android.email/u0a45}
+2021-06-20 22:56:21.415 1535-3077/system_process D/ActivityManager: Making empty: ProcessRecord{e61d6d8 1932:com.android.cellbroadcastreceiver/u0a7}
+2021-06-20 22:56:21.415 1535-3077/system_process D/ActivityManager: Making empty: ProcessRecord{84350bd 1885:com.android.deskclock/u0a44}
+2021-06-20 22:56:21.415 1535-3077/system_process D/ActivityManager: Making empty: ProcessRecord{bb8c04f 1745:com.android.settings/1000}
+2021-06-20 22:56:21.415 1535-3077/system_process D/ActivityManager: Set 1745 com.android.settings adj 902: cch-empty
+2021-06-20 22:56:21.415 1535-3077/system_process D/ActivityManager: Making empty: ProcessRecord{be07d56 1998:android.process.media/u0a11}
+2021-06-20 22:56:21.415 1535-3077/system_process D/ActivityManager: Making empty: ProcessRecord{a35d0b8 2305:com.android.messaging/u0a60}
+2021-06-20 22:56:21.415 1535-3077/system_process D/ActivityManager: Making empty: ProcessRecord{6292530 2345:com.android.packageinstaller/u0a22}
+2021-06-20 22:56:21.415 1535-3077/system_process D/ActivityManager: Making empty: ProcessRecord{19034a6 2326:com.android.onetimeinitializer/u0a18}
+2021-06-20 22:56:21.415 1535-3077/system_process D/ActivityManager: Making empty: ProcessRecord{2a09db4 2031:com.android.smspush/u0a59}
+2021-06-20 22:56:21.415 1535-3077/system_process D/ActivityManager: Making fixed: ProcessRecord{3586298 1719:com.android.phone/1001}
+2021-06-20 22:56:21.415 1535-3077/system_process D/ActivityManager: Raise to service: ProcessRecord{2a09db4 2031:com.android.smspush/u0a59}, due to ProcessRecord{3586298 1719:com.android.phone/1001} adj=100 procState=6
+2021-06-20 22:56:21.415 1535-3077/system_process D/ActivityManager: Making fixed: ProcessRecord{d3bcf98 1640:com.android.systemui/u0a27}
+2021-06-20 22:56:21.415 1535-3077/system_process D/ActivityManager: oom: memFactor=0 last=0 allowLow=false numProcs=22 last=22
+2021-06-20 22:56:21.415 1535-3077/system_process I/ActivityManager: Changes in UidRecord{4cbf6b8 2000 TOP  bg:+57s67ms procs:1 seq(0,0,0)}: proc state from 17 to 2, whitelist from false to false
+2021-06-20 22:56:21.415 1535-3077/system_process I/ActivityManager: *** Enqueueing dispatch uid changed!
+2021-06-20 22:56:21.415 1535-3077/system_process I/ActivityManager: Retrieving available item: com.android.server.am.UidRecord$ChangeItem@7d75324
+2021-06-20 22:56:21.415 1535-3077/system_process D/ActivityManager: Did OOM ADJ in 5ms
+2021-06-20 22:56:21.415 1535-3077/system_process D/ActivityManager: RETRIEVED STATE FOR /proc/2894/stat: S
+2021-06-20 22:56:21.415 1535-3077/system_process I/ActivityManager: Adjust success: true
+2021-06-20 22:56:21.416 2894-2911/com.android.shell I/lsm: Runtime.getRuntime().exec call arg = ./system/bin/bootanimation
+2021-06-20 22:56:21.417 1535-1551/system_process I/ActivityManager: *** Delivering 1 uid changes
+2021-06-20 22:56:21.417 1535-1551/system_process I/ActivityManager: UID CHANGED uid=2000: 2
+2021-06-20 22:56:21.417 1353-2157/? W/audio_hw_generic: Not supplying enough data to HAL, expected position 2866804 , only wrote 2866757
+2021-06-20 22:56:21.420 1535-1551/system_process I/chatty: uid=1000(system) android.ui identical 3 lines
+2021-06-20 22:56:21.420 1535-1551/system_process I/ActivityManager: UID CHANGED uid=2000: 2
+2021-06-20 22:56:21.421 1535-1607/system_process D/ActivityManager_Network: Got update from NPMS for uid: 2000 seq: 0
+2021-06-20 22:56:21.421 1535-1607/system_process D/ActivityManager_Network: procStateSeq: 0 has already been handled for uid: 2000
+2021-06-20 22:56:21.435 2894-2911/com.android.shell W/System.err: java.io.IOException: Cannot run program "./system/bin/bootanimation": error=13, Permission denied
+2021-06-20 22:56:21.435 2894-2911/com.android.shell W/System.err:     at java.lang.ProcessBuilder.start(ProcessBuilder.java:1048)
+2021-06-20 22:56:21.435 2894-2911/com.android.shell W/System.err:     at java.lang.Runtime.exec(Runtime.java:692)
+2021-06-20 22:56:21.435 2894-2911/com.android.shell W/System.err:     at java.lang.Runtime.exec(Runtime.java:525)
+2021-06-20 22:56:21.435 2894-2911/com.android.shell W/System.err:     at java.lang.Runtime.exec(Runtime.java:422)
+2021-06-20 22:56:21.435 2894-2911/com.android.shell W/System.err:     at com.android.shell.ShellExecuteProvider.call(ShellExecuteProvider.java:53)
+2021-06-20 22:56:21.435 2894-2911/com.android.shell W/System.err:     at android.content.ContentProvider$Transport.call(ContentProvider.java:401)
+2021-06-20 22:56:21.435 2894-2911/com.android.shell W/System.err:     at android.content.ContentProviderNative.onTransact(ContentProviderNative.java:272)
+2021-06-20 22:56:21.435 2894-2911/com.android.shell W/System.err:     at android.os.Binder.execTransact(Binder.java:697)
+2021-06-20 22:56:21.435 2894-2911/com.android.shell W/System.err: Caused by: java.io.IOException: error=13, Permission denied
+2021-06-20 22:56:21.435 2894-2911/com.android.shell W/System.err:     at java.lang.UNIXProcess.forkAndExec(Native Method)
+2021-06-20 22:56:21.435 2894-2911/com.android.shell W/System.err:     at java.lang.UNIXProcess.<init>(UNIXProcess.java:133)
+2021-06-20 22:56:21.435 2894-2911/com.android.shell W/System.err:     at java.lang.ProcessImpl.start(ProcessImpl.java:128)
+2021-06-20 22:56:21.435 2894-2911/com.android.shell W/System.err:     at java.lang.ProcessBuilder.start(ProcessBuilder.java:1029)
+2021-06-20 22:56:21.435 2894-2911/com.android.shell W/System.err: 	... 7 more
+2021-06-20 22:56:21.424 3193-3193/? W/Binder:2894_3: type=1400 audit(0.0:36): avc: denied { execute } for name="bootanimation" dev="vda1" ino=312 scontext=u:r:shell:s0 tcontext=u:object_r:bootanim_exec:s0 tclass=file permissive=0
+2021-06-20 22:56:21.457 1535-1751/system_process V/ActivityManager: Removing provider requested by com.panzq.applicationb from process com.android.shell: com.android.shell/.ShellExecuteProvider scnt=0 uscnt=1
+2021-06-20 22:56:21.457 1535-1751/system_process D/ActivityManager: Making top: ProcessRecord{ccc7e95 3115:com.panzq.applicationb/u0a63}
+2021-06-20 22:56:21.457 1535-1751/system_process D/ActivityManager: Making empty: ProcessRecord{a398903 1633:com.android.inputmethod.latin/u0a56}
+2021-06-20 22:56:21.457 1535-1751/system_process D/ActivityManager: Making fixed: ProcessRecord{ac17fb7 1535:system/1000}
+2021-06-20 22:56:21.457 1535-1751/system_process D/ActivityManager: Raise to service: ProcessRecord{a398903 1633:com.android.inputmethod.latin/u0a56}, due to ProcessRecord{ac17fb7 1535:system/1000} adj=100 procState=7
+2021-06-20 22:56:21.457 1535-1751/system_process D/ActivityManager: Making empty: ProcessRecord{3b1094a 2026:com.android.launcher/u0a15}
+2021-06-20 22:56:21.457 1535-1751/system_process D/ActivityManager: Raise to cached activity: ProcessRecord{3b1094a 2026:com.android.launcher/u0a15}
+2021-06-20 22:56:21.457 1535-1751/system_process D/ActivityManager: Raise to home: ProcessRecord{3b1094a 2026:com.android.launcher/u0a15}
+2021-06-20 22:56:21.457 1535-1751/system_process D/ActivityManager: Raise to home: ProcessRecord{3b1094a 2026:com.android.launcher/u0a15}
+2021-06-20 22:56:21.457 1535-1751/system_process D/ActivityManager: Making empty: ProcessRecord{e5ef7f6 2894:com.android.shell/2000}
+2021-06-20 22:56:21.457 1535-1751/system_process D/ActivityManager: Raise to recent provider: ProcessRecord{e5ef7f6 2894:com.android.shell/2000}
+2021-06-20 22:56:21.457 1535-1751/system_process D/ActivityManager: Raise to recent provider: ProcessRecord{e5ef7f6 2894:com.android.shell/2000}
+2021-06-20 22:56:21.457 1535-1751/system_process D/ActivityManager: Set 2894 com.android.shell adj 700: recent-provider
+2021-06-20 22:56:21.457 1535-1751/system_process D/ActivityManager: Setting sched group of com.android.shell to 0
+2021-06-20 22:56:21.457 1535-1751/system_process D/ActivityManager: Process state change from TOP  to LAST next pss in 30000: ProcessRecord{e5ef7f6 2894:com.android.shell/2000}
+2021-06-20 22:56:21.457 1535-1751/system_process D/ActivityManager: Proc state change of com.android.shell to 14
+2021-06-20 22:56:21.457 1535-1751/system_process D/ActivityManager: Checking proc [[com.android.shell]] state changes: old = 2, new = 14
+2021-06-20 22:56:21.457 1535-1751/system_process D/ActivityManager: Making empty: ProcessRecord{261a3b4 2606:com.android.defcontainer/u0a6}
+2021-06-20 22:56:21.457 1535-1751/system_process D/ActivityManager: Making empty: ProcessRecord{7b2bcfe 2160:android.process.acore/u0a1}
+2021-06-20 22:56:21.457 1535-1751/system_process D/ActivityManager: Making empty: ProcessRecord{c0c7a26 2636:com.android.gallery3d/u0a46}
+2021-06-20 22:56:21.457 1535-1751/system_process D/ActivityManager: Making empty: ProcessRecord{24bfd64 2095:com.android.keychain/1000}
+2021-06-20 22:56:21.457 1535-1751/system_process D/ActivityManager: Making empty: ProcessRecord{17c2ac3 2244:com.android.dialer/u0a14}
+2021-06-20 22:56:21.457 1535-1751/system_process D/ActivityManager: Set 2244 com.android.dialer adj 902: cch-empty
+2021-06-20 22:56:21.457 1535-1751/system_process D/ActivityManager: Making empty: ProcessRecord{323766a 2212:com.android.providers.calendar/u0a2}
+2021-06-20 22:56:21.457 1535-1751/system_process D/ActivityManager: Making empty: ProcessRecord{9c37022 2267:com.android.email/u0a45}
+2021-06-20 22:56:21.457 1535-1751/system_process D/ActivityManager: Making empty: ProcessRecord{e61d6d8 1932:com.android.cellbroadcastreceiver/u0a7}
+2021-06-20 22:56:21.457 1535-1751/system_process D/ActivityManager: Making empty: ProcessRecord{84350bd 1885:com.android.deskclock/u0a44}
+2021-06-20 22:56:21.457 1535-1751/system_process D/ActivityManager: Set 1885 com.android.deskclock adj 904: cch-empty
+2021-06-20 22:56:21.457 1535-1751/system_process D/ActivityManager: Making empty: ProcessRecord{bb8c04f 1745:com.android.settings/1000}
+2021-06-20 22:56:21.457 1535-1751/system_process D/ActivityManager: Set 1745 com.android.settings adj 904: cch-empty
+2021-06-20 22:56:21.457 1535-1751/system_process D/ActivityManager: Making empty: ProcessRecord{be07d56 1998:android.process.media/u0a11}
+2021-06-20 22:56:21.457 1535-1751/system_process D/ActivityManager: Making empty: ProcessRecord{a35d0b8 2305:com.android.messaging/u0a60}
+2021-06-20 22:56:21.457 1535-1751/system_process D/ActivityManager: Making empty: ProcessRecord{6292530 2345:com.android.packageinstaller/u0a22}
+2021-06-20 22:56:21.457 1535-1751/system_process D/ActivityManager: Set 2345 com.android.packageinstaller adj 906: cch-empty
+2021-06-20 22:56:21.457 1535-1751/system_process D/ActivityManager: Making empty: ProcessRecord{19034a6 2326:com.android.onetimeinitializer/u0a18}
+2021-06-20 22:56:21.457 1535-1751/system_process D/ActivityManager: Set 2326 com.android.onetimeinitializer adj 906: cch-empty
+2021-06-20 22:56:21.457 1535-1751/system_process D/ActivityManager: Making empty: ProcessRecord{2a09db4 2031:com.android.smspush/u0a59}
+2021-06-20 22:56:21.457 1535-1751/system_process D/ActivityManager: Making fixed: ProcessRecord{3586298 1719:com.android.phone/1001}
+2021-06-20 22:56:21.457 1535-1751/system_process D/ActivityManager: Raise to service: ProcessRecord{2a09db4 2031:com.android.smspush/u0a59}, due to ProcessRecord{3586298 1719:com.android.phone/1001} adj=100 procState=6
+2021-06-20 22:56:21.457 1535-1751/system_process D/ActivityManager: Making fixed: ProcessRecord{d3bcf98 1640:com.android.systemui/u0a27}
+2021-06-20 22:56:21.457 1535-1751/system_process D/ActivityManager: oom: memFactor=0 last=0 allowLow=false numProcs=22 last=22
+2021-06-20 22:56:21.457 1535-1751/system_process I/ActivityManager: Changes in UidRecord{4cbf6b8 2000 LAST change:uncached procs:1 seq(0,0,0)}: proc state from 2 to 14, whitelist from false to false
+2021-06-20 22:56:21.457 1535-1751/system_process I/ActivityManager: *** Enqueueing dispatch uid changed!
+2021-06-20 22:56:21.457 1535-1751/system_process I/ActivityManager: Retrieving available item: com.android.server.am.UidRecord$ChangeItem@7d75324
+2021-06-20 22:56:21.457 1535-1751/system_process D/ActivityManager: Did OOM ADJ in 1ms
+2021-06-20 22:56:21.458 1535-1551/system_process I/ActivityManager: *** Delivering 1 uid changes
+2021-06-20 22:56:21.458 1535-1551/system_process I/ActivityManager: UID CHANGED uid=2000: 14
+2021-06-20 22:56:21.458 1535-1551/system_process I/chatty: uid=1000(system) android.ui identical 3 lines
+2021-06-20 22:56:21.458 1535-1551/system_process I/ActivityManager: UID CHANGED uid=2000: 14
+2021-06-20 22:56:21.458 1535-1607/system_process D/ActivityManager_Network: Got update from NPMS for uid: 2000 seq: 0
+2021-06-20 22:56:21.458 1535-1607/system_process D/ActivityManager_Network: procStateSeq: 0 has already been handled for uid: 2000
+2021-06-20 22:56:24.565 1353-1506/? W/audio_hw_generic: Not supplying enough data to HAL, expected position 3142498 , only wrote 3005567
+2021-06-20 22:56:25.796 1535-1594/system_process V/ActivityManager: Broadcast: Intent { act=com.android.internal.telephony.data-stall flg=0x14 (has extras) } ordered=true userid=0
+2021-06-20 22:56:25.796 1535-1594/system_process V/ActivityManager: Enqueueing broadcast: com.android.internal.telephony.data-stall replacePending=false
+2021-06-20 22:56:25.796 1535-1594/system_process I/ActivityManager: Broadcast intent Intent { act=com.android.internal.telephony.data-stall flg=0x14 (has extras) } on background queue
+2021-06-20 22:56:25.796 1535-1594/system_process V/ActivityManager: Enqueueing ordered broadcast BroadcastRecord{65ff5d4 u0 com.android.internal.telephony.data-stall}: prev had 0
+2021-06-20 22:56:25.796 1535-1594/system_process I/ActivityManager: Enqueueing broadcast com.android.internal.telephony.data-stall
+2021-06-20 22:56:25.796 1535-1594/system_process V/BroadcastQueue: Schedule broadcasts [background]: current=false
+2021-06-20 22:56:25.796 1535-1550/system_process V/BroadcastQueue: Received BROADCAST_INTENT_MSG
+2021-06-20 22:56:25.796 1535-1550/system_process V/BroadcastQueue: processNextBroadcast [background]: 0 parallel broadcasts, 1 ordered broadcasts
+2021-06-20 22:56:25.796 1535-1550/system_process V/BroadcastQueue: Processing ordered broadcast [background] BroadcastRecord{65ff5d4 u0 com.android.internal.telephony.data-stall}
+2021-06-20 22:56:25.796 1535-1550/system_process V/BroadcastQueue: Submitting BROADCAST_TIMEOUT_MSG [background] for BroadcastRecord{65ff5d4 u0 com.android.internal.telephony.data-stall} at 834295
+2021-06-20 22:56:25.796 1535-1550/system_process V/BroadcastQueue: Delivering ordered [background] to registered BroadcastFilter{74f867e u0 ReceiverList{45b6039 1719 com.android.phone/1001/u0 remote:d09f000}}: BroadcastRecord{65ff5d4 u0 com.android.internal.telephony.data-stall}
+2021-06-20 22:56:25.796 1535-1550/system_process D/ActivityManager: Making fixed: ProcessRecord{3586298 1719:com.android.phone/1001}
+2021-06-20 22:56:25.796 1535-1550/system_process I/BroadcastQueue: Delivering to BroadcastFilter{74f867e u0 ReceiverList{45b6039 1719 com.android.phone/1001/u0 remote:d09f000}} : BroadcastRecord{65ff5d4 u0 com.android.internal.telephony.data-stall}
+2021-06-20 22:56:25.799 1535-3077/system_process V/ActivityManager_MU: getIntentSenderLocked(): uid=1001
+2021-06-20 22:56:25.799 1535-3077/system_process D/ActivityManager: checkAllowBackground: uid=1001 pkg=com.android.phone rec=UidRecord{b0147b 1001 PER  change:active|uncached procs:1 seq(0,0,0)} always=false idle=false
+2021-06-20 22:56:25.799 1535-1751/system_process V/ActivityManager: Finish receiver: android.os.BinderProxy@d09f000
+2021-06-20 22:56:25.799 1535-1751/system_process V/BroadcastQueue: processNextBroadcast [background]: 0 parallel broadcasts, 1 ordered broadcasts
+2021-06-20 22:56:25.799 1535-1751/system_process I/BroadcastQueue: Finishing broadcast [background] com.android.internal.telephony.data-stall app=null
+2021-06-20 22:56:25.800 1535-1751/system_process V/BroadcastQueue: Cancelling BROADCAST_TIMEOUT_MSG
+2021-06-20 22:56:25.800 1535-1751/system_process V/BroadcastQueue: Finished with ordered broadcast BroadcastRecord{65ff5d4 u0 com.android.internal.telephony.data-stall}
+2021-06-20 22:56:25.800 1535-1751/system_process D/ActivityManager: Making top: ProcessRecord{ccc7e95 3115:com.panzq.applicationb/u0a63}
+2021-06-20 22:56:25.800 1535-1751/system_process D/ActivityManager: Making empty: ProcessRecord{a398903 1633:com.android.inputmethod.latin/u0a56}
+2021-06-20 22:56:25.800 1535-1751/system_process D/ActivityManager: Making fixed: ProcessRecord{ac17fb7 1535:system/1000}
+2021-06-20 22:56:25.800 1535-1751/system_process D/ActivityManager: Raise to service: ProcessRecord{a398903 1633:com.android.inputmethod.latin/u0a56}, due to ProcessRecord{ac17fb7 1535:system/1000} adj=100 procState=7
+2021-06-20 22:56:25.800 1535-1751/system_process D/ActivityManager: Making empty: ProcessRecord{3b1094a 2026:com.android.launcher/u0a15}
+2021-06-20 22:56:25.800 1535-1751/system_process D/ActivityManager: Raise to cached activity: ProcessRecord{3b1094a 2026:com.android.launcher/u0a15}
+2021-06-20 22:56:25.800 1535-1751/system_process D/ActivityManager: Raise to home: ProcessRecord{3b1094a 2026:com.android.launcher/u0a15}
+2021-06-20 22:56:25.800 1535-1751/system_process D/ActivityManager: Raise to home: ProcessRecord{3b1094a 2026:com.android.launcher/u0a15}
+2021-06-20 22:56:25.800 1535-1751/system_process D/ActivityManager: Making empty: ProcessRecord{e5ef7f6 2894:com.android.shell/2000}
+2021-06-20 22:56:25.800 1535-1751/system_process D/ActivityManager: Raise to recent provider: ProcessRecord{e5ef7f6 2894:com.android.shell/2000}
+2021-06-20 22:56:25.800 1535-1751/system_process D/ActivityManager: Raise to recent provider: ProcessRecord{e5ef7f6 2894:com.android.shell/2000}
+2021-06-20 22:56:25.800 1535-1751/system_process D/ActivityManager: Making empty: ProcessRecord{261a3b4 2606:com.android.defcontainer/u0a6}
+2021-06-20 22:56:25.800 1535-1751/system_process D/ActivityManager: Making empty: ProcessRecord{7b2bcfe 2160:android.process.acore/u0a1}
+2021-06-20 22:56:25.800 1535-1751/system_process D/ActivityManager: Making empty: ProcessRecord{c0c7a26 2636:com.android.gallery3d/u0a46}
+2021-06-20 22:56:25.800 1535-1751/system_process D/ActivityManager: Making empty: ProcessRecord{24bfd64 2095:com.android.keychain/1000}
+2021-06-20 22:56:25.800 1535-1751/system_process D/ActivityManager: Making empty: ProcessRecord{17c2ac3 2244:com.android.dialer/u0a14}
+2021-06-20 22:56:25.800 1535-1751/system_process D/ActivityManager: Making empty: ProcessRecord{323766a 2212:com.android.providers.calendar/u0a2}
+2021-06-20 22:56:25.800 1535-1751/system_process D/ActivityManager: Making empty: ProcessRecord{9c37022 2267:com.android.email/u0a45}
+2021-06-20 22:56:25.800 1535-1751/system_process D/ActivityManager: Making empty: ProcessRecord{e61d6d8 1932:com.android.cellbroadcastreceiver/u0a7}
+2021-06-20 22:56:25.800 1535-1751/system_process D/ActivityManager: Making empty: ProcessRecord{84350bd 1885:com.android.deskclock/u0a44}
+2021-06-20 22:56:25.800 1535-1751/system_process D/ActivityManager: Making empty: ProcessRecord{bb8c04f 1745:com.android.settings/1000}
+2021-06-20 22:56:25.800 1535-1751/system_process D/ActivityManager: Making empty: ProcessRecord{be07d56 1998:android.process.media/u0a11}
+2021-06-20 22:56:25.800 1535-1751/system_process D/ActivityManager: Making empty: ProcessRecord{a35d0b8 2305:com.android.messaging/u0a60}
+2021-06-20 22:56:25.800 1535-1751/system_process D/ActivityManager: Making empty: ProcessRecord{6292530 2345:com.android.packageinstaller/u0a22}
+2021-06-20 22:56:25.800 1535-1751/system_process D/ActivityManager: Making empty: ProcessRecord{19034a6 2326:com.android.onetimeinitializer/u0a18}
+2021-06-20 22:56:25.800 1535-1751/system_process D/ActivityManager: Making empty: ProcessRecord{2a09db4 2031:com.android.smspush/u0a59}
+2021-06-20 22:56:25.800 1535-1751/system_process D/ActivityManager: Making fixed: ProcessRecord{3586298 1719:com.android.phone/1001}
+2021-06-20 22:56:25.800 1535-1751/system_process D/ActivityManager: Raise to service: ProcessRecord{2a09db4 2031:com.android.smspush/u0a59}, due to ProcessRecord{3586298 1719:com.android.phone/1001} adj=100 procState=6
+2021-06-20 22:56:25.800 1535-1751/system_process D/ActivityManager: Making fixed: ProcessRecord{d3bcf98 1640:com.android.systemui/u0a27}
+2021-06-20 22:56:25.800 1535-1751/system_process D/ActivityManager: oom: memFactor=0 last=0 allowLow=false numProcs=22 last=22
+2021-06-20 22:56:25.800 1535-1751/system_process D/ActivityManager: Did OOM ADJ in 0ms
+2021-06-20 22:56:25.801 1535-1751/system_process D/ActivityManager: Making top: ProcessRecord{ccc7e95 3115:com.panzq.applicationb/u0a63}
+2021-06-20 22:56:25.801 1535-1751/system_process D/ActivityManager: Making empty: ProcessRecord{a398903 1633:com.android.inputmethod.latin/u0a56}
+2021-06-20 22:56:25.801 1535-1751/system_process D/ActivityManager: Making fixed: ProcessRecord{ac17fb7 1535:system/1000}
+2021-06-20 22:56:25.801 1535-1751/system_process D/ActivityManager: Raise to service: ProcessRecord{a398903 1633:com.android.inputmethod.latin/u0a56}, due to ProcessRecord{ac17fb7 1535:system/1000} adj=100 procState=7
+2021-06-20 22:56:25.801 1535-1751/system_process D/ActivityManager: Making empty: ProcessRecord{3b1094a 2026:com.android.launcher/u0a15}
+2021-06-20 22:56:25.801 1535-1751/system_process D/ActivityManager: Raise to cached activity: ProcessRecord{3b1094a 2026:com.android.launcher/u0a15}
+2021-06-20 22:56:25.801 1535-1751/system_process D/ActivityManager: Raise to home: ProcessRecord{3b1094a 2026:com.android.launcher/u0a15}
+2021-06-20 22:56:25.801 1535-1751/system_process D/ActivityManager: Raise to home: ProcessRecord{3b1094a 2026:com.android.launcher/u0a15}
+2021-06-20 22:56:25.801 1535-1751/system_process D/ActivityManager: Making empty: ProcessRecord{e5ef7f6 2894:com.android.shell/2000}
+2021-06-20 22:56:25.801 1535-1751/system_process D/ActivityManager: Raise to recent provider: ProcessRecord{e5ef7f6 2894:com.android.shell/2000}
+2021-06-20 22:56:25.801 1535-1751/system_process D/ActivityManager: Raise to recent provider: ProcessRecord{e5ef7f6 2894:com.android.shell/2000}
+2021-06-20 22:56:25.801 1535-1751/system_process D/ActivityManager: Making empty: ProcessRecord{261a3b4 2606:com.android.defcontainer/u0a6}
+2021-06-20 22:56:25.801 1535-1751/system_process D/ActivityManager: Making empty: ProcessRecord{7b2bcfe 2160:android.process.acore/u0a1}
+2021-06-20 22:56:25.801 1535-1751/system_process D/ActivityManager: Making empty: ProcessRecord{c0c7a26 2636:com.android.gallery3d/u0a46}
+2021-06-20 22:56:25.801 1535-1751/system_process D/ActivityManager: Making empty: ProcessRecord{24bfd64 2095:com.android.keychain/1000}
+2021-06-20 22:56:25.801 1535-1751/system_process D/ActivityManager: Making empty: ProcessRecord{17c2ac3 2244:com.android.dialer/u0a14}
+2021-06-20 22:56:25.801 1535-1751/system_process D/ActivityManager: Making empty: ProcessRecord{323766a 2212:com.android.providers.calendar/u0a2}
+2021-06-20 22:56:25.801 1535-1751/system_process D/ActivityManager: Making empty: ProcessRecord{9c37022 2267:com.android.email/u0a45}
+2021-06-20 22:56:25.801 1535-1751/system_process D/ActivityManager: Making empty: ProcessRecord{e61d6d8 1932:com.android.cellbroadcastreceiver/u0a7}
+2021-06-20 22:56:25.801 1535-1751/system_process D/ActivityManager: Making empty: ProcessRecord{84350bd 1885:com.android.deskclock/u0a44}
+2021-06-20 22:56:25.801 1535-1751/system_process D/ActivityManager: Making empty: ProcessRecord{bb8c04f 1745:com.android.settings/1000}
+2021-06-20 22:56:25.801 1535-1751/system_process D/ActivityManager: Making empty: ProcessRecord{be07d56 1998:android.process.media/u0a11}
+2021-06-20 22:56:25.801 1535-1751/system_process D/ActivityManager: Making empty: ProcessRecord{a35d0b8 2305:com.android.messaging/u0a60}
+2021-06-20 22:56:25.801 1535-1751/system_process D/ActivityManager: Making empty: ProcessRecord{6292530 2345:com.android.packageinstaller/u0a22}
+2021-06-20 22:56:25.801 1535-1751/system_process D/ActivityManager: Making empty: ProcessRecord{19034a6 2326:com.android.onetimeinitializer/u0a18}
+2021-06-20 22:56:25.801 1535-1751/system_process D/ActivityManager: Making empty: ProcessRecord{2a09db4 2031:com.android.smspush/u0a59}
+2021-06-20 22:56:25.801 1535-1751/system_process D/ActivityManager: Making fixed: ProcessRecord{3586298 1719:com.android.phone/1001}
+2021-06-20 22:56:25.801 1535-1751/system_process D/ActivityManager: Raise to service: ProcessRecord{2a09db4 2031:com.android.smspush/u0a59}, due to ProcessRecord{3586298 1719:com.android.phone/1001} adj=100 procState=6
+2021-06-20 22:56:25.801 1535-1751/system_process D/ActivityManager: Making fixed: ProcessRecord{d3bcf98 1640:com.android.systemui/u0a27}
+2021-06-20 22:56:25.801 1535-1751/system_process D/ActivityManager: oom: memFactor=0 last=0 allowLow=false numProcs=22 last=22
+2021-06-20 22:56:25.801 1535-1751/system_process D/ActivityManager: Did OOM ADJ in 0ms
+2021-06-20 22:56:33.276 1535-3077/system_process V/ActivityManager: Broadcast sticky: Intent { act=android.intent.action.SIG_STR flg=0x10 (has extras) } ordered=false userid=-1
+2021-06-20 22:56:33.276 1535-3077/system_process V/ActivityManager: Enqueueing broadcast: android.intent.action.SIG_STR replacePending=false
+2021-06-20 22:56:34.515 1535-3077/system_process V/ActivityManager: Broadcast sticky: Intent { act=android.intent.action.SIG_STR flg=0x10 (has extras) } ordered=false userid=-1
+2021-06-20 22:56:34.515 1535-3077/system_process V/ActivityManager: Enqueueing broadcast: android.intent.action.SIG_STR replacePending=false
+2021-06-20 22:56:34.725 1366-1366/? I/qemu-props: start adbd ...
+2021-06-20 22:56:35.586 3115-3120/com.panzq.applicationb I/zygote64: Compiler allocated 5MB to compile void android.view.ViewRootImpl.performTraversals()
+2021-06-20 22:56:53.280 1535-3077/system_process V/ActivityManager: Broadcast sticky: Intent { act=android.intent.action.SIG_STR flg=0x10 (has extras) } ordered=false userid=-1
+2021-06-20 22:56:53.280 1535-3077/system_process V/ActivityManager: Enqueueing broadcast: android.intent.action.SIG_STR replacePending=false
+2021-06-20 22:56:54.517 1535-3077/system_process V/ActivityManager: Broadcast sticky: Intent { act=android.intent.action.SIG_STR flg=0x10 (has extras) } ordered=false userid=-1
+2021-06-20 22:56:54.517 1535-3077/system_process V/ActivityManager: Enqueueing broadcast: android.intent.action.SIG_STR replacePending=false
+2021-06-20 22:57:00.000 1535-1594/system_process V/ActivityManager: Broadcast: Intent { act=android.intent.action.TIME_TICK flg=0x50200014 (has extras) } ordered=true userid=-1
+2021-06-20 22:57:00.000 1535-1594/system_process V/ActivityManager: Enqueueing broadcast: android.intent.action.TIME_TICK replacePending=false
+2021-06-20 22:57:00.000 1535-1594/system_process I/ActivityManager: Broadcast intent Intent { act=android.intent.action.TIME_TICK flg=0x50200014 (has extras) } on foreground queue
+2021-06-20 22:57:00.000 1535-1594/system_process V/ActivityManager: Enqueueing ordered broadcast BroadcastRecord{9ba737d u-1 android.intent.action.TIME_TICK}: prev had 0
+2021-06-20 22:57:00.000 1535-1594/system_process I/ActivityManager: Enqueueing broadcast android.intent.action.TIME_TICK
+2021-06-20 22:57:00.000 1535-1594/system_process V/BroadcastQueue: Schedule broadcasts [foreground]: current=false
+2021-06-20 22:57:00.000 1535-1550/system_process V/BroadcastQueue: Received BROADCAST_INTENT_MSG
+2021-06-20 22:57:00.000 1535-1550/system_process V/BroadcastQueue: processNextBroadcast [foreground]: 0 parallel broadcasts, 1 ordered broadcasts
+2021-06-20 22:57:00.000 1535-1550/system_process V/BroadcastQueue: Processing ordered broadcast [foreground] BroadcastRecord{9ba737d u-1 android.intent.action.TIME_TICK}
+2021-06-20 22:57:00.000 1535-1550/system_process V/BroadcastQueue: Submitting BROADCAST_TIMEOUT_MSG [foreground] for BroadcastRecord{9ba737d u-1 android.intent.action.TIME_TICK} at 818499
+2021-06-20 22:57:00.000 1535-1550/system_process V/BroadcastQueue: Delivering ordered [foreground] to registered BroadcastFilter{58ab00c u0 ReceiverList{c761f3f 1535 system/1000/u0 local:c47cf5e}}: BroadcastRecord{9ba737d u-1 android.intent.action.TIME_TICK}
+2021-06-20 22:57:00.000 1535-1550/system_process D/ActivityManager: Making fixed: ProcessRecord{ac17fb7 1535:system/1000}
+2021-06-20 22:57:00.000 1535-1550/system_process I/BroadcastQueue: Delivering to BroadcastFilter{58ab00c u0 ReceiverList{c761f3f 1535 system/1000/u0 local:c47cf5e}} : BroadcastRecord{9ba737d u-1 android.intent.action.TIME_TICK}
+2021-06-20 22:57:00.001 1535-1535/system_process D/ActivityManager: checkAllowBackground: uid=1000 pkg=android rec=UidRecord{84b06b6 1000 PER  procs:3 seq(0,0,0)} always=false idle=false
+2021-06-20 22:57:00.001 1535-1535/system_process V/ActivityManager: Finish receiver: android.app.LoadedApk$ReceiverDispatcher$InnerReceiver@c47cf5e
+2021-06-20 22:57:00.001 1535-1535/system_process V/BroadcastQueue: processNextBroadcast [foreground]: 0 parallel broadcasts, 1 ordered broadcasts
+2021-06-20 22:57:00.001 1535-1535/system_process V/BroadcastQueue: Delivering ordered [foreground] to registered BroadcastFilter{165071a u0 ReceiverList{4a251c5 1640 com.android.systemui/10027/u0 remote:eeec03c}}: BroadcastRecord{9ba737d u-1 android.intent.action.TIME_TICK}
+2021-06-20 22:57:00.001 1535-1535/system_process D/ActivityManager: Making fixed: ProcessRecord{d3bcf98 1640:com.android.systemui/u0a27}
+2021-06-20 22:57:00.001 1535-1535/system_process I/BroadcastQueue: Delivering to BroadcastFilter{165071a u0 ReceiverList{4a251c5 1640 com.android.systemui/10027/u0 remote:eeec03c}} : BroadcastRecord{9ba737d u-1 android.intent.action.TIME_TICK}
+2021-06-20 22:57:00.001 1535-1535/system_process D/ActivityManager: Making top: ProcessRecord{ccc7e95 3115:com.panzq.applicationb/u0a63}
+2021-06-20 22:57:00.001 1535-1535/system_process D/ActivityManager: Making empty: ProcessRecord{a398903 1633:com.android.inputmethod.latin/u0a56}
+2021-06-20 22:57:00.001 1535-1535/system_process D/ActivityManager: Making fixed: ProcessRecord{ac17fb7 1535:system/1000}
+2021-06-20 22:57:00.001 1535-1535/system_process D/ActivityManager: Raise to service: ProcessRecord{a398903 1633:com.android.inputmethod.latin/u0a56}, due to ProcessRecord{ac17fb7 1535:system/1000} adj=100 procState=7
+2021-06-20 22:57:00.001 1535-1535/system_process D/ActivityManager: Making empty: ProcessRecord{3b1094a 2026:com.android.launcher/u0a15}
+2021-06-20 22:57:00.001 1535-1535/system_process D/ActivityManager: Raise to cached activity: ProcessRecord{3b1094a 2026:com.android.launcher/u0a15}
+2021-06-20 22:57:00.001 1535-1535/system_process D/ActivityManager: Raise to home: ProcessRecord{3b1094a 2026:com.android.launcher/u0a15}
+2021-06-20 22:57:00.001 1535-1535/system_process D/ActivityManager: Raise to home: ProcessRecord{3b1094a 2026:com.android.launcher/u0a15}
+2021-06-20 22:57:00.001 1535-1535/system_process D/ActivityManager: Making empty: ProcessRecord{e5ef7f6 2894:com.android.shell/2000}
+2021-06-20 22:57:00.002 1535-1535/system_process D/ActivityManager: Set 2894 com.android.shell adj 900: cch-empty
+2021-06-20 22:57:00.002 1535-1535/system_process D/ActivityManager: Requesting PSS of: ProcessRecord{e5ef7f6 2894:com.android.shell/2000}
+2021-06-20 22:57:00.002 1535-1535/system_process D/ActivityManager: Proc state change of com.android.shell to 17
+2021-06-20 22:57:00.002 1535-1535/system_process D/ActivityManager: Checking proc [[com.android.shell]] state changes: old = 14, new = 17
+2021-06-20 22:57:00.002 1535-1535/system_process D/ActivityManager: Making empty: ProcessRecord{261a3b4 2606:com.android.defcontainer/u0a6}
+2021-06-20 22:57:00.002 1535-1535/system_process D/ActivityManager: Making empty: ProcessRecord{7b2bcfe 2160:android.process.acore/u0a1}
+2021-06-20 22:57:00.002 1535-1535/system_process D/ActivityManager: Making empty: ProcessRecord{c0c7a26 2636:com.android.gallery3d/u0a46}
+2021-06-20 22:57:00.002 1535-1535/system_process D/ActivityManager: Making empty: ProcessRecord{24bfd64 2095:com.android.keychain/1000}
+2021-06-20 22:57:00.002 1535-1535/system_process D/ActivityManager: Set 2095 com.android.keychain adj 902: cch-empty
+2021-06-20 22:57:00.002 1535-1535/system_process D/ActivityManager: Making empty: ProcessRecord{17c2ac3 2244:com.android.dialer/u0a14}
+2021-06-20 22:57:00.002 1535-1535/system_process D/ActivityManager: Making empty: ProcessRecord{323766a 2212:com.android.providers.calendar/u0a2}
+2021-06-20 22:57:00.002 1535-1535/system_process D/ActivityManager: Making empty: ProcessRecord{9c37022 2267:com.android.email/u0a45}
+2021-06-20 22:57:00.002 1535-1535/system_process D/ActivityManager: Making empty: ProcessRecord{e61d6d8 1932:com.android.cellbroadcastreceiver/u0a7}
+2021-06-20 22:57:00.002 1535-1535/system_process D/ActivityManager: Set 1932 com.android.cellbroadcastreceiver adj 904: cch-empty
+2021-06-20 22:57:00.002 1535-1535/system_process D/ActivityManager: Making empty: ProcessRecord{84350bd 1885:com.android.deskclock/u0a44}
+2021-06-20 22:57:00.002 1535-1535/system_process D/ActivityManager: Making empty: ProcessRecord{bb8c04f 1745:com.android.settings/1000}
+2021-06-20 22:57:00.002 1535-1535/system_process D/ActivityManager: Making empty: ProcessRecord{be07d56 1998:android.process.media/u0a11}
+2021-06-20 22:57:00.002 1535-1535/system_process D/ActivityManager: Making empty: ProcessRecord{a35d0b8 2305:com.android.messaging/u0a60}
+2021-06-20 22:57:00.003 1535-1535/system_process D/ActivityManager: Set 2305 com.android.messaging adj 906: cch-empty
+2021-06-20 22:57:00.003 1535-1535/system_process D/ActivityManager: Making empty: ProcessRecord{6292530 2345:com.android.packageinstaller/u0a22}
+2021-06-20 22:57:00.003 1535-1535/system_process D/ActivityManager: Making empty: ProcessRecord{19034a6 2326:com.android.onetimeinitializer/u0a18}
+2021-06-20 22:57:00.003 1535-1535/system_process D/ActivityManager: Making empty: ProcessRecord{2a09db4 2031:com.android.smspush/u0a59}
+2021-06-20 22:57:00.003 1535-1535/system_process D/ActivityManager: Making fixed: ProcessRecord{3586298 1719:com.android.phone/1001}
+2021-06-20 22:57:00.003 1535-1535/system_process D/ActivityManager: Raise to service: ProcessRecord{2a09db4 2031:com.android.smspush/u0a59}, due to ProcessRecord{3586298 1719:com.android.phone/1001} adj=100 procState=6
+2021-06-20 22:57:00.003 1535-1535/system_process D/ActivityManager: Making fixed: ProcessRecord{d3bcf98 1640:com.android.systemui/u0a27}
+2021-06-20 22:57:00.003 1535-1535/system_process D/ActivityManager: oom: memFactor=0 last=0 allowLow=false numProcs=22 last=22
+2021-06-20 22:57:00.003 1535-1535/system_process I/ActivityManager: Changes in UidRecord{4cbf6b8 2000 CEM  bg:+38s546ms change:cached procs:1 seq(0,0,0)}: proc state from 14 to 17, whitelist from false to false
+2021-06-20 22:57:00.003 1535-1535/system_process I/ActivityManager: *** Enqueueing dispatch uid changed!
+2021-06-20 22:57:00.003 1535-1535/system_process I/ActivityManager: Retrieving available item: com.android.server.am.UidRecord$ChangeItem@7d75324
+2021-06-20 22:57:00.003 1535-1535/system_process D/ActivityManager: Did OOM ADJ in 2ms
+2021-06-20 22:57:00.003 1535-1549/system_process D/ActivityManager: Collected PSS of 0 processes in 1ms
+2021-06-20 22:57:00.004 1535-1751/system_process V/ActivityManager: Finish receiver: android.os.BinderProxy@eeec03c
+2021-06-20 22:57:00.005 1535-1751/system_process V/BroadcastQueue: processNextBroadcast [foreground]: 0 parallel broadcasts, 1 ordered broadcasts
+2021-06-20 22:57:00.005 1535-1751/system_process V/BroadcastQueue: Delivering ordered [foreground] to registered BroadcastFilter{ced4a0 u0 ReceiverList{2e069a3 1640 com.android.systemui/10027/u0 remote:c4f4d2}}: BroadcastRecord{9ba737d u-1 android.intent.action.TIME_TICK}
+2021-06-20 22:57:00.006 1535-1751/system_process D/ActivityManager: Making fixed: ProcessRecord{d3bcf98 1640:com.android.systemui/u0a27}
+2021-06-20 22:57:00.006 1535-1751/system_process I/BroadcastQueue: Delivering to BroadcastFilter{ced4a0 u0 ReceiverList{2e069a3 1640 com.android.systemui/10027/u0 remote:c4f4d2}} : BroadcastRecord{9ba737d u-1 android.intent.action.TIME_TICK}
+2021-06-20 22:57:00.007 1535-1551/system_process I/ActivityManager: *** Delivering 1 uid changes
+2021-06-20 22:57:00.007 1535-1551/system_process I/ActivityManager: UID CHANGED uid=2000: 17
+2021-06-20 22:57:00.007 1535-1551/system_process I/chatty: uid=1000(system) android.ui identical 3 lines
+2021-06-20 22:57:00.007 1535-1551/system_process I/ActivityManager: UID CHANGED uid=2000: 17
+2021-06-20 22:57:00.007 1535-1607/system_process D/ActivityManager_Network: Got update from NPMS for uid: 2000 seq: 0
+2021-06-20 22:57:00.007 1535-1607/system_process D/ActivityManager_Network: procStateSeq: 0 has already been handled for uid: 2000
+2021-06-20 22:57:00.008 1535-1751/system_process D/ActivityManager: Making top: ProcessRecord{ccc7e95 3115:com.panzq.applicationb/u0a63}
+2021-06-20 22:57:00.008 1535-1751/system_process D/ActivityManager: Making empty: ProcessRecord{a398903 1633:com.android.inputmethod.latin/u0a56}
+2021-06-20 22:57:00.008 1535-1751/system_process D/ActivityManager: Making fixed: ProcessRecord{ac17fb7 1535:system/1000}
+2021-06-20 22:57:00.008 1535-1751/system_process D/ActivityManager: Raise to service: ProcessRecord{a398903 1633:com.android.inputmethod.latin/u0a56}, due to ProcessRecord{ac17fb7 1535:system/1000} adj=100 procState=7
+2021-06-20 22:57:00.008 1535-1751/system_process D/ActivityManager: Making empty: ProcessRecord{3b1094a 2026:com.android.launcher/u0a15}
+2021-06-20 22:57:00.008 1535-1751/system_process D/ActivityManager: Raise to cached activity: ProcessRecord{3b1094a 2026:com.android.launcher/u0a15}
+2021-06-20 22:57:00.008 1535-1751/system_process D/ActivityManager: Raise to home: ProcessRecord{3b1094a 2026:com.android.launcher/u0a15}
+2021-06-20 22:57:00.008 1535-1751/system_process D/ActivityManager: Raise to home: ProcessRecord{3b1094a 2026:com.android.launcher/u0a15}
+2021-06-20 22:57:00.008 1535-1751/system_process D/ActivityManager: Making empty: ProcessRecord{e5ef7f6 2894:com.android.shell/2000}
+2021-06-20 22:57:00.008 1535-1751/system_process D/ActivityManager: Making empty: ProcessRecord{261a3b4 2606:com.android.defcontainer/u0a6}
+2021-06-20 22:57:00.008 1535-1751/system_process D/ActivityManager: Making empty: ProcessRecord{7b2bcfe 2160:android.process.acore/u0a1}
+2021-06-20 22:57:00.008 1535-1751/system_process D/ActivityManager: Making empty: ProcessRecord{c0c7a26 2636:com.android.gallery3d/u0a46}
+2021-06-20 22:57:00.008 1535-1751/system_process D/ActivityManager: Making empty: ProcessRecord{24bfd64 2095:com.android.keychain/1000}
+2021-06-20 22:57:00.008 1535-1751/system_process D/ActivityManager: Set 2095 com.android.keychain adj 900: cch-empty
+2021-06-20 22:57:00.008 1535-1751/system_process D/ActivityManager: Making empty: ProcessRecord{17c2ac3 2244:com.android.dialer/u0a14}
+2021-06-20 22:57:00.008 1535-1751/system_process D/ActivityManager: Making empty: ProcessRecord{323766a 2212:com.android.providers.calendar/u0a2}
+2021-06-20 22:57:00.008 1535-1751/system_process D/ActivityManager: Making empty: ProcessRecord{9c37022 2267:com.android.email/u0a45}
+2021-06-20 22:57:00.008 1535-1751/system_process D/ActivityManager: Making empty: ProcessRecord{e61d6d8 1932:com.android.cellbroadcastreceiver/u0a7}
+2021-06-20 22:57:00.008 1535-1751/system_process D/ActivityManager: Set 1932 com.android.cellbroadcastreceiver adj 902: cch-empty
+2021-06-20 22:57:00.008 1535-1751/system_process D/ActivityManager: Making empty: ProcessRecord{84350bd 1885:com.android.deskclock/u0a44}
+2021-06-20 22:57:00.008 1535-1751/system_process D/ActivityManager: Set 1885 com.android.deskclock adj 902: cch-empty
+2021-06-20 22:57:00.008 1535-1751/system_process D/ActivityManager: Making empty: ProcessRecord{bb8c04f 1745:com.android.settings/1000}
+2021-06-20 22:57:00.008 1535-1751/system_process D/ActivityManager: Making empty: ProcessRecord{be07d56 1998:android.process.media/u0a11}
+2021-06-20 22:57:00.008 1535-1751/system_process D/ActivityManager: Making empty: ProcessRecord{a35d0b8 2305:com.android.messaging/u0a60}
+2021-06-20 22:57:00.008 1535-1751/system_process D/ActivityManager: Set 2305 com.android.messaging adj 904: cch-empty
+2021-06-20 22:57:00.008 1535-1751/system_process D/ActivityManager: Making empty: ProcessRecord{6292530 2345:com.android.packageinstaller/u0a22}
+2021-06-20 22:57:00.008 1535-1751/system_process D/ActivityManager: Set 2345 com.android.packageinstaller adj 904: cch-empty
+2021-06-20 22:57:00.008 1535-1751/system_process D/ActivityManager: Making empty: ProcessRecord{19034a6 2326:com.android.onetimeinitializer/u0a18}
+2021-06-20 22:57:00.008 1535-1751/system_process D/ActivityManager: Set 2326 com.android.onetimeinitializer adj 904: cch-empty
+2021-06-20 22:57:00.008 1535-1751/system_process D/ActivityManager: Making empty: ProcessRecord{2a09db4 2031:com.android.smspush/u0a59}
+2021-06-20 22:57:00.008 1535-1751/system_process D/ActivityManager: Making fixed: ProcessRecord{3586298 1719:com.android.phone/1001}
+2021-06-20 22:57:00.008 1535-1751/system_process D/ActivityManager: Raise to service: ProcessRecord{2a09db4 2031:com.android.smspush/u0a59}, due to ProcessRecord{3586298 1719:com.android.phone/1001} adj=100 procState=6
+2021-06-20 22:57:00.008 1535-1751/system_process D/ActivityManager: Making fixed: ProcessRecord{d3bcf98 1640:com.android.systemui/u0a27}
+2021-06-20 22:57:00.008 1535-1751/system_process D/ActivityManager: oom: memFactor=0 last=0 allowLow=false numProcs=22 last=22
+2021-06-20 22:57:00.008 1535-1751/system_process D/ActivityManager: Did OOM ADJ in 1ms
+2021-06-20 22:57:00.010 1535-3077/system_process V/ActivityManager: Finish receiver: android.os.BinderProxy@c4f4d2
+2021-06-20 22:57:00.010 1535-3077/system_process V/BroadcastQueue: processNextBroadcast [foreground]: 0 parallel broadcasts, 1 ordered broadcasts
+2021-06-20 22:57:00.010 1535-3077/system_process V/BroadcastQueue: Delivering ordered [foreground] to registered BroadcastFilter{258a8f0 u0 ReceiverList{1f69d33 1640 com.android.systemui/10027/u0 remote:8ec7ca2}}: BroadcastRecord{9ba737d u-1 android.intent.action.TIME_TICK}
+2021-06-20 22:57:00.010 1535-3077/system_process D/ActivityManager: Making fixed: ProcessRecord{d3bcf98 1640:com.android.systemui/u0a27}
+2021-06-20 22:57:00.010 1535-3077/system_process I/BroadcastQueue: Delivering to BroadcastFilter{258a8f0 u0 ReceiverList{1f69d33 1640 com.android.systemui/10027/u0 remote:8ec7ca2}} : BroadcastRecord{9ba737d u-1 android.intent.action.TIME_TICK}
+2021-06-20 22:57:00.010 1535-3077/system_process D/ActivityManager: Making top: ProcessRecord{ccc7e95 3115:com.panzq.applicationb/u0a63}
+2021-06-20 22:57:00.010 1535-3077/system_process D/ActivityManager: Making empty: ProcessRecord{a398903 1633:com.android.inputmethod.latin/u0a56}
+2021-06-20 22:57:00.010 1535-3077/system_process D/ActivityManager: Making fixed: ProcessRecord{ac17fb7 1535:system/1000}
+2021-06-20 22:57:00.010 1535-3077/system_process D/ActivityManager: Raise to service: ProcessRecord{a398903 1633:com.android.inputmethod.latin/u0a56}, due to ProcessRecord{ac17fb7 1535:system/1000} adj=100 procState=7
+2021-06-20 22:57:00.010 1535-3077/system_process D/ActivityManager: Making empty: ProcessRecord{3b1094a 2026:com.android.launcher/u0a15}
+2021-06-20 22:57:00.010 1535-3077/system_process D/ActivityManager: Raise to cached activity: ProcessRecord{3b1094a 2026:com.android.launcher/u0a15}
+2021-06-20 22:57:00.010 1535-3077/system_process D/ActivityManager: Raise to home: ProcessRecord{3b1094a 2026:com.android.launcher/u0a15}
+2021-06-20 22:57:00.010 1535-3077/system_process D/ActivityManager: Raise to home: ProcessRecord{3b1094a 2026:com.android.launcher/u0a15}
+2021-06-20 22:57:00.010 1535-3077/system_process D/ActivityManager: Making empty: ProcessRecord{e5ef7f6 2894:com.android.shell/2000}
+2021-06-20 22:57:00.010 1535-3077/system_process D/ActivityManager: Making empty: ProcessRecord{261a3b4 2606:com.android.defcontainer/u0a6}
+2021-06-20 22:57:00.010 1535-3077/system_process D/ActivityManager: Making empty: ProcessRecord{7b2bcfe 2160:android.process.acore/u0a1}
+2021-06-20 22:57:00.010 1535-3077/system_process D/ActivityManager: Making empty: ProcessRecord{c0c7a26 2636:com.android.gallery3d/u0a46}
+2021-06-20 22:57:00.010 1535-3077/system_process D/ActivityManager: Making empty: ProcessRecord{24bfd64 2095:com.android.keychain/1000}
+2021-06-20 22:57:00.010 1535-3077/system_process D/ActivityManager: Making empty: ProcessRecord{17c2ac3 2244:com.android.dialer/u0a14}
+2021-06-20 22:57:00.010 1535-3077/system_process D/ActivityManager: Making empty: ProcessRecord{323766a 2212:com.android.providers.calendar/u0a2}
+2021-06-20 22:57:00.010 1535-3077/system_process D/ActivityManager: Making empty: ProcessRecord{9c37022 2267:com.android.email/u0a45}
+2021-06-20 22:57:00.010 1535-3077/system_process D/ActivityManager: Making empty: ProcessRecord{e61d6d8 1932:com.android.cellbroadcastreceiver/u0a7}
+2021-06-20 22:57:00.010 1535-3077/system_process D/ActivityManager: Making empty: ProcessRecord{84350bd 1885:com.android.deskclock/u0a44}
+2021-06-20 22:57:00.010 1535-3077/system_process D/ActivityManager: Making empty: ProcessRecord{bb8c04f 1745:com.android.settings/1000}
+2021-06-20 22:57:00.010 1535-3077/system_process D/ActivityManager: Making empty: ProcessRecord{be07d56 1998:android.process.media/u0a11}
+2021-06-20 22:57:00.010 1535-3077/system_process D/ActivityManager: Making empty: ProcessRecord{a35d0b8 2305:com.android.messaging/u0a60}
+2021-06-20 22:57:00.010 1535-3077/system_process D/ActivityManager: Making empty: ProcessRecord{6292530 2345:com.android.packageinstaller/u0a22}
+2021-06-20 22:57:00.010 1535-3077/system_process D/ActivityManager: Making empty: ProcessRecord{19034a6 2326:com.android.onetimeinitializer/u0a18}
+2021-06-20 22:57:00.010 1535-3077/system_process D/ActivityManager: Making empty: ProcessRecord{2a09db4 2031:com.android.smspush/u0a59}
+2021-06-20 22:57:00.010 1535-3077/system_process D/ActivityManager: Making fixed: ProcessRecord{3586298 1719:com.android.phone/1001}
+2021-06-20 22:57:00.010 1535-3077/system_process D/ActivityManager: Raise to service: ProcessRecord{2a09db4 2031:com.android.smspush/u0a59}, due to ProcessRecord{3586298 1719:com.android.phone/1001} adj=100 procState=6
+2021-06-20 22:57:00.010 1535-3077/system_process D/ActivityManager: Making fixed: ProcessRecord{d3bcf98 1640:com.android.systemui/u0a27}
+2021-06-20 22:57:00.010 1535-3077/system_process D/ActivityManager: oom: memFactor=0 last=0 allowLow=false numProcs=22 last=22
+2021-06-20 22:57:00.010 1535-3077/system_process D/ActivityManager: Did OOM ADJ in 1ms
+2021-06-20 22:57:00.010 1535-3077/system_process V/ActivityManager: Finish receiver: android.os.BinderProxy@8ec7ca2
+2021-06-20 22:57:00.011 1535-3077/system_process V/BroadcastQueue: processNextBroadcast [foreground]: 0 parallel broadcasts, 1 ordered broadcasts
+2021-06-20 22:57:00.011 1535-3077/system_process V/BroadcastQueue: Delivering ordered [foreground] to registered BroadcastFilter{fb7641c u0 ReceiverList{8f3d98f 1640 com.android.systemui/10027/u0 remote:7b9c0ee}}: BroadcastRecord{9ba737d u-1 android.intent.action.TIME_TICK}
+2021-06-20 22:57:00.011 1535-3077/system_process D/ActivityManager: Making fixed: ProcessRecord{d3bcf98 1640:com.android.systemui/u0a27}
+2021-06-20 22:57:00.011 1535-3077/system_process I/BroadcastQueue: Delivering to BroadcastFilter{fb7641c u0 ReceiverList{8f3d98f 1640 com.android.systemui/10027/u0 remote:7b9c0ee}} : BroadcastRecord{9ba737d u-1 android.intent.action.TIME_TICK}
+2021-06-20 22:57:00.011 1535-3077/system_process D/ActivityManager: Making top: ProcessRecord{ccc7e95 3115:com.panzq.applicationb/u0a63}
+2021-06-20 22:57:00.011 1535-3077/system_process D/ActivityManager: Making empty: ProcessRecord{a398903 1633:com.android.inputmethod.latin/u0a56}
+2021-06-20 22:57:00.011 1535-3077/system_process D/ActivityManager: Making fixed: ProcessRecord{ac17fb7 1535:system/1000}
+2021-06-20 22:57:00.011 1535-3077/system_process D/ActivityManager: Raise to service: ProcessRecord{a398903 1633:com.android.inputmethod.latin/u0a56}, due to ProcessRecord{ac17fb7 1535:system/1000} adj=100 procState=7
+2021-06-20 22:57:00.011 1535-3077/system_process D/ActivityManager: Making empty: ProcessRecord{3b1094a 2026:com.android.launcher/u0a15}
+2021-06-20 22:57:00.011 1535-3077/system_process D/ActivityManager: Raise to cached activity: ProcessRecord{3b1094a 2026:com.android.launcher/u0a15}
+2021-06-20 22:57:00.011 1535-3077/system_process D/ActivityManager: Raise to home: ProcessRecord{3b1094a 2026:com.android.launcher/u0a15}
+2021-06-20 22:57:00.011 1535-3077/system_process D/ActivityManager: Raise to home: ProcessRecord{3b1094a 2026:com.android.launcher/u0a15}
+2021-06-20 22:57:00.011 1535-3077/system_process D/ActivityManager: Making empty: ProcessRecord{e5ef7f6 2894:com.android.shell/2000}
+2021-06-20 22:57:00.011 1535-3077/system_process D/ActivityManager: Making empty: ProcessRecord{261a3b4 2606:com.android.defcontainer/u0a6}
+2021-06-20 22:57:00.011 1535-3077/system_process D/ActivityManager: Making empty: ProcessRecord{7b2bcfe 2160:android.process.acore/u0a1}
+2021-06-20 22:57:00.011 1535-3077/system_process D/ActivityManager: Making empty: ProcessRecord{c0c7a26 2636:com.android.gallery3d/u0a46}
+2021-06-20 22:57:00.011 1535-3077/system_process D/ActivityManager: Making empty: ProcessRecord{24bfd64 2095:com.android.keychain/1000}
+2021-06-20 22:57:00.011 1535-3077/system_process D/ActivityManager: Making empty: ProcessRecord{17c2ac3 2244:com.android.dialer/u0a14}
+2021-06-20 22:57:00.011 1535-3077/system_process D/ActivityManager: Making empty: ProcessRecord{323766a 2212:com.android.providers.calendar/u0a2}
+2021-06-20 22:57:00.011 1535-3077/system_process D/ActivityManager: Making empty: ProcessRecord{9c37022 2267:com.android.email/u0a45}
+2021-06-20 22:57:00.011 1535-3077/system_process D/ActivityManager: Making empty: ProcessRecord{e61d6d8 1932:com.android.cellbroadcastreceiver/u0a7}
+2021-06-20 22:57:00.011 1535-3077/system_process D/ActivityManager: Making empty: ProcessRecord{84350bd 1885:com.android.deskclock/u0a44}
+2021-06-20 22:57:00.011 1535-3077/system_process D/ActivityManager: Making empty: ProcessRecord{bb8c04f 1745:com.android.settings/1000}
+2021-06-20 22:57:00.011 1535-3077/system_process D/ActivityManager: Making empty: ProcessRecord{be07d56 1998:android.process.media/u0a11}
+2021-06-20 22:57:00.011 1535-3077/system_process D/ActivityManager: Making empty: ProcessRecord{a35d0b8 2305:com.android.messaging/u0a60}
+2021-06-20 22:57:00.011 1535-3077/system_process D/ActivityManager: Making empty: ProcessRecord{6292530 2345:com.android.packageinstaller/u0a22}
+2021-06-20 22:57:00.011 1535-3077/system_process D/ActivityManager: Making empty: ProcessRecord{19034a6 2326:com.android.onetimeinitializer/u0a18}
+2021-06-20 22:57:00.011 1535-3077/system_process D/ActivityManager: Making empty: ProcessRecord{2a09db4 2031:com.android.smspush/u0a59}
+2021-06-20 22:57:00.011 1535-3077/system_process D/ActivityManager: Making fixed: ProcessRecord{3586298 1719:com.android.phone/1001}
+2021-06-20 22:57:00.011 1535-3077/system_process D/ActivityManager: Raise to service: ProcessRecord{2a09db4 2031:com.android.smspush/u0a59}, due to ProcessRecord{3586298 1719:com.android.phone/1001} adj=100 procState=6
+2021-06-20 22:57:00.011 1535-3077/system_process D/ActivityManager: Making fixed: ProcessRecord{d3bcf98 1640:com.android.systemui/u0a27}
+2021-06-20 22:57:00.011 1535-3077/system_process D/ActivityManager: oom: memFactor=0 last=0 allowLow=false numProcs=22 last=22
+2021-06-20 22:57:00.011 1535-3077/system_process D/ActivityManager: Did OOM ADJ in 0ms
+2021-06-20 22:57:00.011 1535-3077/system_process V/ActivityManager: Finish receiver: android.os.BinderProxy@7b9c0ee
+2021-06-20 22:57:00.011 1535-3077/system_process V/BroadcastQueue: processNextBroadcast [foreground]: 0 parallel broadcasts, 1 ordered broadcasts
+2021-06-20 22:57:00.011 1535-3077/system_process V/BroadcastQueue: Delivering ordered [foreground] to registered BroadcastFilter{42a0c4c u-1 ReceiverList{544447f 1640 com.android.systemui/10027/u-1 remote:d0e419e}}: BroadcastRecord{9ba737d u-1 android.intent.action.TIME_TICK}
+2021-06-20 22:57:00.011 1535-3077/system_process D/ActivityManager: Making fixed: ProcessRecord{d3bcf98 1640:com.android.systemui/u0a27}
+2021-06-20 22:57:00.011 1535-3077/system_process I/BroadcastQueue: Delivering to BroadcastFilter{42a0c4c u-1 ReceiverList{544447f 1640 com.android.systemui/10027/u-1 remote:d0e419e}} : BroadcastRecord{9ba737d u-1 android.intent.action.TIME_TICK}
+2021-06-20 22:57:00.013 1535-3077/system_process D/ActivityManager: Making top: ProcessRecord{ccc7e95 3115:com.panzq.applicationb/u0a63}
+2021-06-20 22:57:00.013 1535-3077/system_process D/ActivityManager: Making empty: ProcessRecord{a398903 1633:com.android.inputmethod.latin/u0a56}
+2021-06-20 22:57:00.013 1535-3077/system_process D/ActivityManager: Making fixed: ProcessRecord{ac17fb7 1535:system/1000}
+2021-06-20 22:57:00.013 1535-3077/system_process D/ActivityManager: Raise to service: ProcessRecord{a398903 1633:com.android.inputmethod.latin/u0a56}, due to ProcessRecord{ac17fb7 1535:system/1000} adj=100 procState=7
+2021-06-20 22:57:00.013 1535-3077/system_process D/ActivityManager: Making empty: ProcessRecord{3b1094a 2026:com.android.launcher/u0a15}
+2021-06-20 22:57:00.013 1535-3077/system_process D/ActivityManager: Raise to cached activity: ProcessRecord{3b1094a 2026:com.android.launcher/u0a15}
+2021-06-20 22:57:00.013 1535-3077/system_process D/ActivityManager: Raise to home: ProcessRecord{3b1094a 2026:com.android.launcher/u0a15}
+2021-06-20 22:57:00.013 1535-3077/system_process D/ActivityManager: Raise to home: ProcessRecord{3b1094a 2026:com.android.launcher/u0a15}
+2021-06-20 22:57:00.013 1535-3077/system_process D/ActivityManager: Making empty: ProcessRecord{e5ef7f6 2894:com.android.shell/2000}
+2021-06-20 22:57:00.013 1535-3077/system_process D/ActivityManager: Making empty: ProcessRecord{261a3b4 2606:com.android.defcontainer/u0a6}
+2021-06-20 22:57:00.013 1535-3077/system_process D/ActivityManager: Making empty: ProcessRecord{7b2bcfe 2160:android.process.acore/u0a1}
+2021-06-20 22:57:00.013 1535-3077/system_process D/ActivityManager: Making empty: ProcessRecord{c0c7a26 2636:com.android.gallery3d/u0a46}
+2021-06-20 22:57:00.013 1535-3077/system_process D/ActivityManager: Making empty: ProcessRecord{24bfd64 2095:com.android.keychain/1000}
+2021-06-20 22:57:00.013 1535-3077/system_process D/ActivityManager: Making empty: ProcessRecord{17c2ac3 2244:com.android.dialer/u0a14}
+2021-06-20 22:57:00.013 1535-3077/system_process D/ActivityManager: Making empty: ProcessRecord{323766a 2212:com.android.providers.calendar/u0a2}
+2021-06-20 22:57:00.013 1535-3077/system_process D/ActivityManager: Making empty: ProcessRecord{9c37022 2267:com.android.email/u0a45}
+2021-06-20 22:57:00.013 1535-3077/system_process D/ActivityManager: Making empty: ProcessRecord{e61d6d8 1932:com.android.cellbroadcastreceiver/u0a7}
+2021-06-20 22:57:00.013 1535-3077/system_process D/ActivityManager: Making empty: ProcessRecord{84350bd 1885:com.android.deskclock/u0a44}
+2021-06-20 22:57:00.013 1535-3077/system_process D/ActivityManager: Making empty: ProcessRecord{bb8c04f 1745:com.android.settings/1000}
+2021-06-20 22:57:00.013 1535-3077/system_process D/ActivityManager: Making empty: ProcessRecord{be07d56 1998:android.process.media/u0a11}
+2021-06-20 22:57:00.013 1535-3077/system_process D/ActivityManager: Making empty: ProcessRecord{a35d0b8 2305:com.android.messaging/u0a60}
+2021-06-20 22:57:00.013 1535-3077/system_process D/ActivityManager: Making empty: ProcessRecord{6292530 2345:com.android.packageinstaller/u0a22}
+2021-06-20 22:57:00.013 1535-3077/system_process D/ActivityManager: Making empty: ProcessRecord{19034a6 2326:com.android.onetimeinitializer/u0a18}
+2021-06-20 22:57:00.013 1535-3077/system_process D/ActivityManager: Making empty: ProcessRecord{2a09db4 2031:com.android.smspush/u0a59}
+2021-06-20 22:57:00.013 1535-3077/system_process D/ActivityManager: Making fixed: ProcessRecord{3586298 1719:com.android.phone/1001}
+2021-06-20 22:57:00.013 1535-3077/system_process D/ActivityManager: Raise to service: ProcessRecord{2a09db4 2031:com.android.smspush/u0a59}, due to ProcessRecord{3586298 1719:com.android.phone/1001} adj=100 procState=6
+2021-06-20 22:57:00.013 1535-3077/system_process D/ActivityManager: Making fixed: ProcessRecord{d3bcf98 1640:com.android.systemui/u0a27}
+2021-06-20 22:57:00.013 1535-3077/system_process D/ActivityManager: oom: memFactor=0 last=0 allowLow=false numProcs=22 last=22
+2021-06-20 22:57:00.013 1535-3077/system_process D/ActivityManager: Did OOM ADJ in 0ms
+2021-06-20 22:57:00.013 1535-3077/system_process V/ActivityManager: Finish receiver: android.os.BinderProxy@d0e419e
+2021-06-20 22:57:00.013 1535-3077/system_process V/BroadcastQueue: processNextBroadcast [foreground]: 0 parallel broadcasts, 1 ordered broadcasts
+2021-06-20 22:57:00.013 1535-3077/system_process V/BroadcastQueue: Delivering ordered [foreground] to registered BroadcastFilter{46f207c u-1 ReceiverList{bd4b6f 1640 com.android.systemui/10027/u-1 remote:9c4e4e}}: BroadcastRecord{9ba737d u-1 android.intent.action.TIME_TICK}
+2021-06-20 22:57:00.013 1535-3077/system_process D/ActivityManager: Making fixed: ProcessRecord{d3bcf98 1640:com.android.systemui/u0a27}
+2021-06-20 22:57:00.013 1535-3077/system_process I/BroadcastQueue: Delivering to BroadcastFilter{46f207c u-1 ReceiverList{bd4b6f 1640 com.android.systemui/10027/u-1 remote:9c4e4e}} : BroadcastRecord{9ba737d u-1 android.intent.action.TIME_TICK}
+2021-06-20 22:57:00.014 1535-3077/system_process D/ActivityManager: Making top: ProcessRecord{ccc7e95 3115:com.panzq.applicationb/u0a63}
+2021-06-20 22:57:00.014 1535-3077/system_process D/ActivityManager: Making empty: ProcessRecord{a398903 1633:com.android.inputmethod.latin/u0a56}
+2021-06-20 22:57:00.014 1535-3077/system_process D/ActivityManager: Making fixed: ProcessRecord{ac17fb7 1535:system/1000}
+2021-06-20 22:57:00.014 1535-3077/system_process D/ActivityManager: Raise to service: ProcessRecord{a398903 1633:com.android.inputmethod.latin/u0a56}, due to ProcessRecord{ac17fb7 1535:system/1000} adj=100 procState=7
+2021-06-20 22:57:00.014 1535-3077/system_process D/ActivityManager: Making empty: ProcessRecord{3b1094a 2026:com.android.launcher/u0a15}
+2021-06-20 22:57:00.014 1535-3077/system_process D/ActivityManager: Raise to cached activity: ProcessRecord{3b1094a 2026:com.android.launcher/u0a15}
+2021-06-20 22:57:00.014 1535-3077/system_process D/ActivityManager: Raise to home: ProcessRecord{3b1094a 2026:com.android.launcher/u0a15}
+2021-06-20 22:57:00.014 1535-3077/system_process D/ActivityManager: Raise to home: ProcessRecord{3b1094a 2026:com.android.launcher/u0a15}
+2021-06-20 22:57:00.014 1535-3077/system_process D/ActivityManager: Making empty: ProcessRecord{e5ef7f6 2894:com.android.shell/2000}
+2021-06-20 22:57:00.014 1535-3077/system_process D/ActivityManager: Making empty: ProcessRecord{261a3b4 2606:com.android.defcontainer/u0a6}
+2021-06-20 22:57:00.014 1535-3077/system_process D/ActivityManager: Making empty: ProcessRecord{7b2bcfe 2160:android.process.acore/u0a1}
+2021-06-20 22:57:00.014 1535-3077/system_process D/ActivityManager: Making empty: ProcessRecord{c0c7a26 2636:com.android.gallery3d/u0a46}
+2021-06-20 22:57:00.014 1535-3077/system_process D/ActivityManager: Making empty: ProcessRecord{24bfd64 2095:com.android.keychain/1000}
+2021-06-20 22:57:00.014 1535-3077/system_process D/ActivityManager: Making empty: ProcessRecord{17c2ac3 2244:com.android.dialer/u0a14}
+2021-06-20 22:57:00.014 1535-3077/system_process D/ActivityManager: Making empty: ProcessRecord{323766a 2212:com.android.providers.calendar/u0a2}
+2021-06-20 22:57:00.014 1535-3077/system_process D/ActivityManager: Making empty: ProcessRecord{9c37022 2267:com.android.email/u0a45}
+2021-06-20 22:57:00.014 1535-3077/system_process D/ActivityManager: Making empty: ProcessRecord{e61d6d8 1932:com.android.cellbroadcastreceiver/u0a7}
+2021-06-20 22:57:00.014 1535-3077/system_process D/ActivityManager: Making empty: ProcessRecord{84350bd 1885:com.android.deskclock/u0a44}
+2021-06-20 22:57:00.014 1535-3077/system_process D/ActivityManager: Making empty: ProcessRecord{bb8c04f 1745:com.android.settings/1000}
+2021-06-20 22:57:00.014 1535-3077/system_process D/ActivityManager: Making empty: ProcessRecord{be07d56 1998:android.process.media/u0a11}
+2021-06-20 22:57:00.014 1535-3077/system_process D/ActivityManager: Making empty: ProcessRecord{a35d0b8 2305:com.android.messaging/u0a60}
+2021-06-20 22:57:00.014 1535-3077/system_process D/ActivityManager: Making empty: ProcessRecord{6292530 2345:com.android.packageinstaller/u0a22}
+2021-06-20 22:57:00.014 1535-3077/system_process D/ActivityManager: Making empty: ProcessRecord{19034a6 2326:com.android.onetimeinitializer/u0a18}
+2021-06-20 22:57:00.014 1535-3077/system_process D/ActivityManager: Making empty: ProcessRecord{2a09db4 2031:com.android.smspush/u0a59}
+2021-06-20 22:57:00.014 1535-3077/system_process D/ActivityManager: Making fixed: ProcessRecord{3586298 1719:com.android.phone/1001}
+2021-06-20 22:57:00.014 1535-3077/system_process D/ActivityManager: Raise to service: ProcessRecord{2a09db4 2031:com.android.smspush/u0a59}, due to ProcessRecord{3586298 1719:com.android.phone/1001} adj=100 procState=6
+2021-06-20 22:57:00.014 1535-3077/system_process D/ActivityManager: Making fixed: ProcessRecord{d3bcf98 1640:com.android.systemui/u0a27}
+2021-06-20 22:57:00.014 1535-3077/system_process D/ActivityManager: oom: memFactor=0 last=0 allowLow=false numProcs=22 last=22
+2021-06-20 22:57:00.014 1535-3077/system_process D/ActivityManager: Did OOM ADJ in 0ms
+2021-06-20 22:57:00.014 1535-3077/system_process V/ActivityManager: Finish receiver: android.os.BinderProxy@9c4e4e
+2021-06-20 22:57:00.014 1535-3077/system_process V/BroadcastQueue: processNextBroadcast [foreground]: 0 parallel broadcasts, 1 ordered broadcasts
+2021-06-20 22:57:00.014 1535-3077/system_process V/BroadcastQueue: Delivering ordered [foreground] to registered BroadcastFilter{dcbc868 u0 ReceiverList{1fd2f8b 1640 com.android.systemui/10027/u0 remote:573015a}}: BroadcastRecord{9ba737d u-1 android.intent.action.TIME_TICK}
+2021-06-20 22:57:00.014 1535-3077/system_process D/ActivityManager: Making fixed: ProcessRecord{d3bcf98 1640:com.android.systemui/u0a27}
+2021-06-20 22:57:00.014 1535-3077/system_process I/BroadcastQueue: Delivering to BroadcastFilter{dcbc868 u0 ReceiverList{1fd2f8b 1640 com.android.systemui/10027/u0 remote:573015a}} : BroadcastRecord{9ba737d u-1 android.intent.action.TIME_TICK}
+2021-06-20 22:57:00.014 1535-3077/system_process D/ActivityManager: Making top: ProcessRecord{ccc7e95 3115:com.panzq.applicationb/u0a63}
+2021-06-20 22:57:00.014 1535-3077/system_process D/ActivityManager: Making empty: ProcessRecord{a398903 1633:com.android.inputmethod.latin/u0a56}
+2021-06-20 22:57:00.014 1535-3077/system_process D/ActivityManager: Making fixed: ProcessRecord{ac17fb7 1535:system/1000}
+2021-06-20 22:57:00.014 1535-3077/system_process D/ActivityManager: Raise to service: ProcessRecord{a398903 1633:com.android.inputmethod.latin/u0a56}, due to ProcessRecord{ac17fb7 1535:system/1000} adj=100 procState=7
+2021-06-20 22:57:00.014 1535-3077/system_process D/ActivityManager: Making empty: ProcessRecord{3b1094a 2026:com.android.launcher/u0a15}
+2021-06-20 22:57:00.014 1535-3077/system_process D/ActivityManager: Raise to cached activity: ProcessRecord{3b1094a 2026:com.android.launcher/u0a15}
+2021-06-20 22:57:00.014 1535-3077/system_process D/ActivityManager: Raise to home: ProcessRecord{3b1094a 2026:com.android.launcher/u0a15}
+2021-06-20 22:57:00.014 1535-3077/system_process D/ActivityManager: Raise to home: ProcessRecord{3b1094a 2026:com.android.launcher/u0a15}
+2021-06-20 22:57:00.014 1535-3077/system_process D/ActivityManager: Making empty: ProcessRecord{e5ef7f6 2894:com.android.shell/2000}
+2021-06-20 22:57:00.014 1535-3077/system_process D/ActivityManager: Making empty: ProcessRecord{261a3b4 2606:com.android.defcontainer/u0a6}
+2021-06-20 22:57:00.014 1535-3077/system_process D/ActivityManager: Making empty: ProcessRecord{7b2bcfe 2160:android.process.acore/u0a1}
+2021-06-20 22:57:00.014 1535-3077/system_process D/ActivityManager: Making empty: ProcessRecord{c0c7a26 2636:com.android.gallery3d/u0a46}
+2021-06-20 22:57:00.014 1535-3077/system_process D/ActivityManager: Making empty: ProcessRecord{24bfd64 2095:com.android.keychain/1000}
+2021-06-20 22:57:00.014 1535-3077/system_process D/ActivityManager: Making empty: ProcessRecord{17c2ac3 2244:com.android.dialer/u0a14}
+2021-06-20 22:57:00.014 1535-3077/system_process D/ActivityManager: Making empty: ProcessRecord{323766a 2212:com.android.providers.calendar/u0a2}
+2021-06-20 22:57:00.014 1535-3077/system_process D/ActivityManager: Making empty: ProcessRecord{9c37022 2267:com.android.email/u0a45}
+2021-06-20 22:57:00.014 1535-3077/system_process D/ActivityManager: Making empty: ProcessRecord{e61d6d8 1932:com.android.cellbroadcastreceiver/u0a7}
+2021-06-20 22:57:00.014 1535-3077/system_process D/ActivityManager: Making empty: ProcessRecord{84350bd 1885:com.android.deskclock/u0a44}
+2021-06-20 22:57:00.014 1535-3077/system_process D/ActivityManager: Making empty: ProcessRecord{bb8c04f 1745:com.android.settings/1000}
+2021-06-20 22:57:00.014 1535-3077/system_process D/ActivityManager: Making empty: ProcessRecord{be07d56 1998:android.process.media/u0a11}
+2021-06-20 22:57:00.014 1535-3077/system_process D/ActivityManager: Making empty: ProcessRecord{a35d0b8 2305:com.android.messaging/u0a60}
+2021-06-20 22:57:00.014 1535-3077/system_process D/ActivityManager: Making empty: ProcessRecord{6292530 2345:com.android.packageinstaller/u0a22}
+2021-06-20 22:57:00.014 1535-3077/system_process D/ActivityManager: Making empty: ProcessRecord{19034a6 2326:com.android.onetimeinitializer/u0a18}
+2021-06-20 22:57:00.014 1535-3077/system_process D/ActivityManager: Making empty: ProcessRecord{2a09db4 2031:com.android.smspush/u0a59}
+2021-06-20 22:57:00.014 1535-3077/system_process D/ActivityManager: Making fixed: ProcessRecord{3586298 1719:com.android.phone/1001}
+2021-06-20 22:57:00.014 1535-3077/system_process D/ActivityManager: Raise to service: ProcessRecord{2a09db4 2031:com.android.smspush/u0a59}, due to ProcessRecord{3586298 1719:com.android.phone/1001} adj=100 procState=6
+2021-06-20 22:57:00.014 1535-3077/system_process D/ActivityManager: Making fixed: ProcessRecord{d3bcf98 1640:com.android.systemui/u0a27}
+2021-06-20 22:57:00.014 1535-3077/system_process D/ActivityManager: oom: memFactor=0 last=0 allowLow=false numProcs=22 last=22
+2021-06-20 22:57:00.014 1535-3077/system_process D/ActivityManager: Did OOM ADJ in 0ms
+2021-06-20 22:57:00.014 1535-3077/system_process V/ActivityManager: Finish receiver: android.os.BinderProxy@573015a
+2021-06-20 22:57:00.014 1535-3077/system_process V/BroadcastQueue: processNextBroadcast [foreground]: 0 parallel broadcasts, 1 ordered broadcasts
+2021-06-20 22:57:00.014 1535-3077/system_process V/BroadcastQueue: Delivering ordered [foreground] to registered BroadcastFilter{3ac0bed u0 ReceiverList{28fea04 1640 com.android.systemui/10027/u0 remote:ff4a617}}: BroadcastRecord{9ba737d u-1 android.intent.action.TIME_TICK}
+2021-06-20 22:57:00.014 1535-3077/system_process D/ActivityManager: Making fixed: ProcessRecord{d3bcf98 1640:com.android.systemui/u0a27}
+2021-06-20 22:57:00.014 1535-3077/system_process I/BroadcastQueue: Delivering to BroadcastFilter{3ac0bed u0 ReceiverList{28fea04 1640 com.android.systemui/10027/u0 remote:ff4a617}} : BroadcastRecord{9ba737d u-1 android.intent.action.TIME_TICK}
+2021-06-20 22:57:00.015 1535-3077/system_process D/ActivityManager: Making top: ProcessRecord{ccc7e95 3115:com.panzq.applicationb/u0a63}
+2021-06-20 22:57:00.015 1535-3077/system_process D/ActivityManager: Making empty: ProcessRecord{a398903 1633:com.android.inputmethod.latin/u0a56}
+2021-06-20 22:57:00.015 1535-3077/system_process D/ActivityManager: Making fixed: ProcessRecord{ac17fb7 1535:system/1000}
+2021-06-20 22:57:00.015 1535-3077/system_process D/ActivityManager: Raise to service: ProcessRecord{a398903 1633:com.android.inputmethod.latin/u0a56}, due to ProcessRecord{ac17fb7 1535:system/1000} adj=100 procState=7
+2021-06-20 22:57:00.015 1535-3077/system_process D/ActivityManager: Making empty: ProcessRecord{3b1094a 2026:com.android.launcher/u0a15}
+2021-06-20 22:57:00.015 1535-3077/system_process D/ActivityManager: Raise to cached activity: ProcessRecord{3b1094a 2026:com.android.launcher/u0a15}
+2021-06-20 22:57:00.015 1535-3077/system_process D/ActivityManager: Raise to home: ProcessRecord{3b1094a 2026:com.android.launcher/u0a15}
+2021-06-20 22:57:00.015 1535-3077/system_process D/ActivityManager: Raise to home: ProcessRecord{3b1094a 2026:com.android.launcher/u0a15}
+2021-06-20 22:57:00.015 1535-3077/system_process D/ActivityManager: Making empty: ProcessRecord{e5ef7f6 2894:com.android.shell/2000}
+2021-06-20 22:57:00.015 1535-3077/system_process D/ActivityManager: Making empty: ProcessRecord{261a3b4 2606:com.android.defcontainer/u0a6}
+2021-06-20 22:57:00.015 1535-3077/system_process D/ActivityManager: Making empty: ProcessRecord{7b2bcfe 2160:android.process.acore/u0a1}
+2021-06-20 22:57:00.015 1535-3077/system_process D/ActivityManager: Making empty: ProcessRecord{c0c7a26 2636:com.android.gallery3d/u0a46}
+2021-06-20 22:57:00.015 1535-3077/system_process D/ActivityManager: Making empty: ProcessRecord{24bfd64 2095:com.android.keychain/1000}
+2021-06-20 22:57:00.015 1535-3077/system_process D/ActivityManager: Making empty: ProcessRecord{17c2ac3 2244:com.android.dialer/u0a14}
+2021-06-20 22:57:00.015 1535-3077/system_process D/ActivityManager: Making empty: ProcessRecord{323766a 2212:com.android.providers.calendar/u0a2}
+2021-06-20 22:57:00.015 1535-3077/system_process D/ActivityManager: Making empty: ProcessRecord{9c37022 2267:com.android.email/u0a45}
+2021-06-20 22:57:00.015 1535-3077/system_process D/ActivityManager: Making empty: ProcessRecord{e61d6d8 1932:com.android.cellbroadcastreceiver/u0a7}
+2021-06-20 22:57:00.015 1535-3077/system_process D/ActivityManager: Making empty: ProcessRecord{84350bd 1885:com.android.deskclock/u0a44}
+2021-06-20 22:57:00.015 1535-3077/system_process D/ActivityManager: Making empty: ProcessRecord{bb8c04f 1745:com.android.settings/1000}
+2021-06-20 22:57:00.015 1535-3077/system_process D/ActivityManager: Making empty: ProcessRecord{be07d56 1998:android.process.media/u0a11}
+2021-06-20 22:57:00.015 1535-3077/system_process D/ActivityManager: Making empty: ProcessRecord{a35d0b8 2305:com.android.messaging/u0a60}
+2021-06-20 22:57:00.015 1535-3077/system_process D/ActivityManager: Making empty: ProcessRecord{6292530 2345:com.android.packageinstaller/u0a22}
+2021-06-20 22:57:00.015 1535-3077/system_process D/ActivityManager: Making empty: ProcessRecord{19034a6 2326:com.android.onetimeinitializer/u0a18}
+2021-06-20 22:57:00.015 1535-3077/system_process D/ActivityManager: Making empty: ProcessRecord{2a09db4 2031:com.android.smspush/u0a59}
+2021-06-20 22:57:00.015 1535-3077/system_process D/ActivityManager: Making fixed: ProcessRecord{3586298 1719:com.android.phone/1001}
+2021-06-20 22:57:00.015 1535-3077/system_process D/ActivityManager: Raise to service: ProcessRecord{2a09db4 2031:com.android.smspush/u0a59}, due to ProcessRecord{3586298 1719:com.android.phone/1001} adj=100 procState=6
+2021-06-20 22:57:00.015 1535-3077/system_process D/ActivityManager: Making fixed: ProcessRecord{d3bcf98 1640:com.android.systemui/u0a27}
+2021-06-20 22:57:00.015 1535-3077/system_process D/ActivityManager: oom: memFactor=0 last=0 allowLow=false numProcs=22 last=22
+2021-06-20 22:57:00.015 1535-3077/system_process D/ActivityManager: Did OOM ADJ in 0ms
+2021-06-20 22:57:00.015 1535-3077/system_process V/ActivityManager: Finish receiver: android.os.BinderProxy@ff4a617
+2021-06-20 22:57:00.015 1535-3077/system_process V/BroadcastQueue: processNextBroadcast [foreground]: 0 parallel broadcasts, 1 ordered broadcasts
+2021-06-20 22:57:00.015 1535-3077/system_process V/BroadcastQueue: Delivering ordered [foreground] to registered BroadcastFilter{2914451 u0 ReceiverList{606f578 2026 com.android.launcher/10015/u0 remote:443a6db}}: BroadcastRecord{9ba737d u-1 android.intent.action.TIME_TICK}
+2021-06-20 22:57:00.015 1535-3077/system_process D/ActivityManager: Making broadcast: ProcessRecord{3b1094a 2026:com.android.launcher/u0a15}
+2021-06-20 22:57:00.015 1535-3077/system_process D/ActivityManager: Set 2026 com.android.launcher adj 0: broadcast
+2021-06-20 22:57:00.015 1535-3077/system_process D/ActivityManager: Setting sched group of com.android.launcher to 1
+2021-06-20 22:57:00.015 1535-3077/system_process D/ActivityManager: Proc state change of com.android.launcher to 12
+2021-06-20 22:57:00.015 1535-3077/system_process D/ActivityManager: Checking proc [[com.android.launcher]] state changes: old = 13, new = 12
+2021-06-20 22:57:00.015 1535-3077/system_process I/BroadcastQueue: Delivering to BroadcastFilter{2914451 u0 ReceiverList{606f578 2026 com.android.launcher/10015/u0 remote:443a6db}} : BroadcastRecord{9ba737d u-1 android.intent.action.TIME_TICK}
+2021-06-20 22:57:00.015 1535-3077/system_process D/ActivityManager: Making top: ProcessRecord{ccc7e95 3115:com.panzq.applicationb/u0a63}
+2021-06-20 22:57:00.015 1535-3077/system_process D/ActivityManager: Making empty: ProcessRecord{a398903 1633:com.android.inputmethod.latin/u0a56}
+2021-06-20 22:57:00.015 1535-3077/system_process D/ActivityManager: Making fixed: ProcessRecord{ac17fb7 1535:system/1000}
+2021-06-20 22:57:00.015 1535-3077/system_process D/ActivityManager: Raise to service: ProcessRecord{a398903 1633:com.android.inputmethod.latin/u0a56}, due to ProcessRecord{ac17fb7 1535:system/1000} adj=100 procState=7
+2021-06-20 22:57:00.015 1535-3077/system_process D/ActivityManager: Making broadcast: ProcessRecord{3b1094a 2026:com.android.launcher/u0a15}
+2021-06-20 22:57:00.015 1535-3077/system_process D/ActivityManager: Making empty: ProcessRecord{e5ef7f6 2894:com.android.shell/2000}
+2021-06-20 22:57:00.015 1535-3077/system_process D/ActivityManager: Making empty: ProcessRecord{261a3b4 2606:com.android.defcontainer/u0a6}
+2021-06-20 22:57:00.015 1535-3077/system_process D/ActivityManager: Making empty: ProcessRecord{7b2bcfe 2160:android.process.acore/u0a1}
+2021-06-20 22:57:00.015 1535-3077/system_process D/ActivityManager: Making empty: ProcessRecord{c0c7a26 2636:com.android.gallery3d/u0a46}
+2021-06-20 22:57:00.015 1535-3077/system_process D/ActivityManager: Making empty: ProcessRecord{24bfd64 2095:com.android.keychain/1000}
+2021-06-20 22:57:00.015 1535-3077/system_process D/ActivityManager: Making empty: ProcessRecord{17c2ac3 2244:com.android.dialer/u0a14}
+2021-06-20 22:57:00.015 1535-3077/system_process D/ActivityManager: Making empty: ProcessRecord{323766a 2212:com.android.providers.calendar/u0a2}
+2021-06-20 22:57:00.015 1535-3077/system_process D/ActivityManager: Making empty: ProcessRecord{9c37022 2267:com.android.email/u0a45}
+2021-06-20 22:57:00.015 1535-3077/system_process D/ActivityManager: Making empty: ProcessRecord{e61d6d8 1932:com.android.cellbroadcastreceiver/u0a7}
+2021-06-20 22:57:00.015 1535-3077/system_process D/ActivityManager: Making empty: ProcessRecord{84350bd 1885:com.android.deskclock/u0a44}
+2021-06-20 22:57:00.015 1535-3077/system_process D/ActivityManager: Making empty: ProcessRecord{bb8c04f 1745:com.android.settings/1000}
+2021-06-20 22:57:00.016 1535-3077/system_process D/ActivityManager: Making empty: ProcessRecord{be07d56 1998:android.process.media/u0a11}
+2021-06-20 22:57:00.016 1535-3077/system_process D/ActivityManager: Making empty: ProcessRecord{a35d0b8 2305:com.android.messaging/u0a60}
+2021-06-20 22:57:00.016 1535-3077/system_process D/ActivityManager: Making empty: ProcessRecord{6292530 2345:com.android.packageinstaller/u0a22}
+2021-06-20 22:57:00.016 1535-3077/system_process D/ActivityManager: Making empty: ProcessRecord{19034a6 2326:com.android.onetimeinitializer/u0a18}
+2021-06-20 22:57:00.016 1535-3077/system_process D/ActivityManager: Making empty: ProcessRecord{2a09db4 2031:com.android.smspush/u0a59}
+2021-06-20 22:57:00.016 1535-3077/system_process D/ActivityManager: Making fixed: ProcessRecord{3586298 1719:com.android.phone/1001}
+2021-06-20 22:57:00.016 1535-3077/system_process D/ActivityManager: Raise to service: ProcessRecord{2a09db4 2031:com.android.smspush/u0a59}, due to ProcessRecord{3586298 1719:com.android.phone/1001} adj=100 procState=6
+2021-06-20 22:57:00.016 1535-3077/system_process D/ActivityManager: Making fixed: ProcessRecord{d3bcf98 1640:com.android.systemui/u0a27}
+2021-06-20 22:57:00.016 1535-3077/system_process D/ActivityManager: oom: memFactor=0 last=0 allowLow=false numProcs=22 last=22
+2021-06-20 22:57:00.016 1535-3077/system_process I/ActivityManager: Changes in UidRecord{2defc43 u0a15 RCVR bg:+3m30s520ms idle change:cached procs:1 seq(0,0,0)}: proc state from 13 to 12, whitelist from false to false
+2021-06-20 22:57:00.016 1535-3077/system_process I/ActivityManager: *** Enqueueing dispatch uid changed!
+2021-06-20 22:57:00.016 1535-3077/system_process I/ActivityManager: Retrieving available item: com.android.server.am.UidRecord$ChangeItem@7d75324
+2021-06-20 22:57:00.016 1535-3077/system_process D/ActivityManager: Did OOM ADJ in 0ms
+2021-06-20 22:57:00.016 1535-2948/system_process V/ActivityManager: Finish receiver: android.os.BinderProxy@443a6db
+2021-06-20 22:57:00.016 1535-2948/system_process V/BroadcastQueue: processNextBroadcast [foreground]: 0 parallel broadcasts, 1 ordered broadcasts
+2021-06-20 22:57:00.016 1535-2948/system_process I/BroadcastQueue: Finishing broadcast [foreground] android.intent.action.TIME_TICK app=null
+2021-06-20 22:57:00.016 1535-2948/system_process V/BroadcastQueue: Cancelling BROADCAST_TIMEOUT_MSG
+2021-06-20 22:57:00.016 1535-2948/system_process V/BroadcastQueue: Finished with ordered broadcast BroadcastRecord{9ba737d u-1 android.intent.action.TIME_TICK}
+2021-06-20 22:57:00.016 1535-2948/system_process D/ActivityManager: Making top: ProcessRecord{ccc7e95 3115:com.panzq.applicationb/u0a63}
+2021-06-20 22:57:00.016 1535-2948/system_process D/ActivityManager: Making empty: ProcessRecord{a398903 1633:com.android.inputmethod.latin/u0a56}
+2021-06-20 22:57:00.016 1535-2948/system_process D/ActivityManager: Making fixed: ProcessRecord{ac17fb7 1535:system/1000}
+2021-06-20 22:57:00.016 1535-2948/system_process D/ActivityManager: Raise to service: ProcessRecord{a398903 1633:com.android.inputmethod.latin/u0a56}, due to ProcessRecord{ac17fb7 1535:system/1000} adj=100 procState=7
+2021-06-20 22:57:00.016 1535-2948/system_process D/ActivityManager: Making empty: ProcessRecord{3b1094a 2026:com.android.launcher/u0a15}
+2021-06-20 22:57:00.016 1535-2948/system_process D/ActivityManager: Raise to cached activity: ProcessRecord{3b1094a 2026:com.android.launcher/u0a15}
+2021-06-20 22:57:00.016 1535-2948/system_process D/ActivityManager: Raise to home: ProcessRecord{3b1094a 2026:com.android.launcher/u0a15}
+2021-06-20 22:57:00.016 1535-2948/system_process D/ActivityManager: Raise to home: ProcessRecord{3b1094a 2026:com.android.launcher/u0a15}
+2021-06-20 22:57:00.016 1535-2948/system_process D/ActivityManager: Set 2026 com.android.launcher adj 600: home
+2021-06-20 22:57:00.016 1535-2948/system_process D/ActivityManager: Setting sched group of com.android.launcher to 0
+2021-06-20 22:57:00.016 1535-2948/system_process D/ActivityManager: Proc state change of com.android.launcher to 13
+2021-06-20 22:57:00.016 1535-2948/system_process D/ActivityManager: Checking proc [[com.android.launcher]] state changes: old = 12, new = 13
+2021-06-20 22:57:00.016 1535-2948/system_process D/ActivityManager: Making empty: ProcessRecord{e5ef7f6 2894:com.android.shell/2000}
+2021-06-20 22:57:00.016 1535-2948/system_process D/ActivityManager: Making empty: ProcessRecord{261a3b4 2606:com.android.defcontainer/u0a6}
+2021-06-20 22:57:00.016 1535-2948/system_process D/ActivityManager: Making empty: ProcessRecord{7b2bcfe 2160:android.process.acore/u0a1}
+2021-06-20 22:57:00.016 1535-2948/system_process D/ActivityManager: Making empty: ProcessRecord{c0c7a26 2636:com.android.gallery3d/u0a46}
+2021-06-20 22:57:00.016 1535-2948/system_process D/ActivityManager: Making empty: ProcessRecord{24bfd64 2095:com.android.keychain/1000}
+2021-06-20 22:57:00.016 1535-2948/system_process D/ActivityManager: Making empty: ProcessRecord{17c2ac3 2244:com.android.dialer/u0a14}
+2021-06-20 22:57:00.016 1535-2948/system_process D/ActivityManager: Making empty: ProcessRecord{323766a 2212:com.android.providers.calendar/u0a2}
+2021-06-20 22:57:00.016 1535-2948/system_process D/ActivityManager: Making empty: ProcessRecord{9c37022 2267:com.android.email/u0a45}
+2021-06-20 22:57:00.016 1535-2948/system_process D/ActivityManager: Making empty: ProcessRecord{e61d6d8 1932:com.android.cellbroadcastreceiver/u0a7}
+2021-06-20 22:57:13.284 1535-3077/system_process V/ActivityManager: Broadcast sticky: Intent { act=android.intent.action.SIG_STR flg=0x10 (has extras) } ordered=false userid=-1
+2021-06-20 22:57:13.284 1535-3077/system_process V/ActivityManager: Enqueueing broadcast: android.intent.action.SIG_STR replacePending=false
+2021-06-20 22:57:14.518 1535-3077/system_process V/ActivityManager: Broadcast sticky: Intent { act=android.intent.action.SIG_STR flg=0x10 (has extras) } ordered=false userid=-1
+2021-06-20 22:57:14.518 1535-3077/system_process V/ActivityManager: Enqueueing broadcast: android.intent.action.SIG_STR replacePending=false
+2021-06-20 22:57:21.469 1535-1550/system_process I/ActivityManager: *** Enqueueing dispatch uid changed!
+2021-06-20 22:57:21.469 1535-1550/system_process I/ActivityManager: Retrieving available item: com.android.server.am.UidRecord$ChangeItem@7d75324
+2021-06-20 22:57:21.470 1535-1551/system_process I/ActivityManager: *** Delivering 1 uid changes
+2021-06-20 22:57:21.470 1535-1551/system_process I/ActivityManager: UID CHANGED uid=2000: 17
+2021-06-20 22:57:21.470 1535-1551/system_process I/chatty: uid=1000(system) android.ui identical 1 line
+2021-06-20 22:57:21.470 1535-1551/system_process I/ActivityManager: UID CHANGED uid=2000: 17
+2021-06-20 22:57:21.470 1535-1551/system_process I/ActivityManager: UID idle uid=2000
+2021-06-20 22:57:21.470 1535-1551/system_process I/ActivityManager: UID CHANGED uid=2000: 17
+2021-06-20 22:57:21.470 1535-1551/system_process I/ActivityManager: UID CHANGED uid=2000: 17
+2021-06-20 22:57:21.470 1535-1551/system_process I/ActivityManager: UID idle uid=2000
+2021-06-20 22:57:21.470 1535-1607/system_process D/ActivityManager_Network: Got update from NPMS for uid: 2000 seq: 0
+2021-06-20 22:57:21.471 1535-1607/system_process D/ActivityManager_Network: procStateSeq: 0 has already been handled for uid: 2000
+2021-06-20 22:57:25.799 1535-1594/system_process V/ActivityManager: Broadcast: Intent { act=com.android.internal.telephony.data-stall flg=0x14 (has extras) } ordered=true userid=0
+2021-06-20 22:57:25.799 1535-1594/system_process V/ActivityManager: Enqueueing broadcast: com.android.internal.telephony.data-stall replacePending=false
+2021-06-20 22:57:25.799 1535-1594/system_process I/ActivityManager: Broadcast intent Intent { act=com.android.internal.telephony.data-stall flg=0x14 (has extras) } on background queue
+2021-06-20 22:57:25.799 1535-1594/system_process V/ActivityManager: Enqueueing ordered broadcast BroadcastRecord{3417272 u0 com.android.internal.telephony.data-stall}: prev had 0
+2021-06-20 22:57:25.799 1535-1594/system_process I/ActivityManager: Enqueueing broadcast com.android.internal.telephony.data-stall
+2021-06-20 22:57:25.799 1535-1594/system_process V/BroadcastQueue: Schedule broadcasts [background]: current=false
+2021-06-20 22:57:25.799 1535-1550/system_process V/BroadcastQueue: Received BROADCAST_INTENT_MSG
+2021-06-20 22:57:25.799 1535-1550/system_process V/BroadcastQueue: processNextBroadcast [background]: 0 parallel broadcasts, 1 ordered broadcasts
+2021-06-20 22:57:25.799 1535-1550/system_process V/BroadcastQueue: Processing ordered broadcast [background] BroadcastRecord{3417272 u0 com.android.internal.telephony.data-stall}
+2021-06-20 22:57:25.799 1535-1550/system_process V/BroadcastQueue: Submitting BROADCAST_TIMEOUT_MSG [background] for BroadcastRecord{3417272 u0 com.android.internal.telephony.data-stall} at 894298
+2021-06-20 22:57:25.799 1535-1550/system_process V/BroadcastQueue: Delivering ordered [background] to registered BroadcastFilter{74f867e u0 ReceiverList{45b6039 1719 com.android.phone/1001/u0 remote:d09f000}}: BroadcastRecord{3417272 u0 com.android.internal.telephony.data-stall}
+2021-06-20 22:57:25.799 1535-1550/system_process D/ActivityManager: Making fixed: ProcessRecord{3586298 1719:com.android.phone/1001}
+2021-06-20 22:57:25.799 1535-1550/system_process I/BroadcastQueue: Delivering to BroadcastFilter{74f867e u0 ReceiverList{45b6039 1719 com.android.phone/1001/u0 remote:d09f000}} : BroadcastRecord{3417272 u0 com.android.internal.telephony.data-stall}
+2021-06-20 22:57:25.801 1535-3077/system_process V/ActivityManager_MU: getIntentSenderLocked(): uid=1001
+2021-06-20 22:57:25.801 1535-3077/system_process D/ActivityManager: checkAllowBackground: uid=1001 pkg=com.android.phone rec=UidRecord{b0147b 1001 PER  change:active|uncached procs:1 seq(0,0,0)} always=false idle=false
+2021-06-20 22:57:25.802 1535-1751/system_process V/ActivityManager: Finish receiver: android.os.BinderProxy@d09f000
+2021-06-20 22:57:25.802 1535-1751/system_process V/BroadcastQueue: processNextBroadcast [background]: 0 parallel broadcasts, 1 ordered broadcasts
+2021-06-20 22:57:25.802 1535-1751/system_process I/BroadcastQueue: Finishing broadcast [background] com.android.internal.telephony.data-stall app=null
+2021-06-20 22:57:25.804 1535-1751/system_process V/BroadcastQueue: Cancelling BROADCAST_TIMEOUT_MSG
+2021-06-20 22:57:25.804 1535-1751/system_process V/BroadcastQueue: Finished with ordered broadcast BroadcastRecord{3417272 u0 com.android.internal.telephony.data-stall}
+2021-06-20 22:57:25.804 1535-1751/system_process D/ActivityManager: Making top: ProcessRecord{ccc7e95 3115:com.panzq.applicationb/u0a63}
+2021-06-20 22:57:25.804 1535-1751/system_process D/ActivityManager: Making empty: ProcessRecord{a398903 1633:com.android.inputmethod.latin/u0a56}
+2021-06-20 22:57:25.804 1535-1751/system_process D/ActivityManager: Making fixed: ProcessRecord{ac17fb7 1535:system/1000}
+2021-06-20 22:57:25.804 1535-1751/system_process D/ActivityManager: Raise to service: ProcessRecord{a398903 1633:com.android.inputmethod.latin/u0a56}, due to ProcessRecord{ac17fb7 1535:system/1000} adj=100 procState=7
+2021-06-20 22:57:25.804 1535-1751/system_process D/ActivityManager: Making empty: ProcessRecord{3b1094a 2026:com.android.launcher/u0a15}
+2021-06-20 22:57:25.804 1535-1751/system_process D/ActivityManager: Raise to cached activity: ProcessRecord{3b1094a 2026:com.android.launcher/u0a15}
+2021-06-20 22:57:25.804 1535-1751/system_process D/ActivityManager: Raise to home: ProcessRecord{3b1094a 2026:com.android.launcher/u0a15}
+2021-06-20 22:57:25.804 1535-1751/system_process D/ActivityManager: Raise to home: ProcessRecord{3b1094a 2026:com.android.launcher/u0a15}
+2021-06-20 22:57:25.804 1535-1751/system_process D/ActivityManager: Making empty: ProcessRecord{e5ef7f6 2894:com.android.shell/2000}
+2021-06-20 22:57:25.804 1535-1751/system_process D/ActivityManager: Making empty: ProcessRecord{261a3b4 2606:com.android.defcontainer/u0a6}
+2021-06-20 22:57:25.804 1535-1751/system_process D/ActivityManager: Making empty: ProcessRecord{7b2bcfe 2160:android.process.acore/u0a1}
+2021-06-20 22:57:25.804 1535-1751/system_process D/ActivityManager: Making empty: ProcessRecord{c0c7a26 2636:com.android.gallery3d/u0a46}
+2021-06-20 22:57:25.804 1535-1751/system_process D/ActivityManager: Making empty: ProcessRecord{24bfd64 2095:com.android.keychain/1000}
+2021-06-20 22:57:25.804 1535-1751/system_process D/ActivityManager: Making empty: ProcessRecord{17c2ac3 2244:com.android.dialer/u0a14}
+2021-06-20 22:57:25.804 1535-1751/system_process D/ActivityManager: Making empty: ProcessRecord{323766a 2212:com.android.providers.calendar/u0a2}
+2021-06-20 22:57:25.804 1535-1751/system_process D/ActivityManager: Making empty: ProcessRecord{9c37022 2267:com.android.email/u0a45}
+2021-06-20 22:57:25.804 1535-1751/system_process D/ActivityManager: Making empty: ProcessRecord{e61d6d8 1932:com.android.cellbroadcastreceiver/u0a7}
+2021-06-20 22:57:25.804 1535-1751/system_process D/ActivityManager: Making empty: ProcessRecord{84350bd 1885:com.android.deskclock/u0a44}
+2021-06-20 22:57:25.804 1535-1751/system_process D/ActivityManager: Making empty: ProcessRecord{bb8c04f 1745:com.android.settings/1000}
+2021-06-20 22:57:25.804 1535-1751/system_process D/ActivityManager: Making empty: ProcessRecord{be07d56 1998:android.process.media/u0a11}
+2021-06-20 22:57:25.804 1535-1751/system_process D/ActivityManager: Making empty: ProcessRecord{a35d0b8 2305:com.android.messaging/u0a60}
+2021-06-20 22:57:25.804 1535-1751/system_process D/ActivityManager: Making empty: ProcessRecord{6292530 2345:com.android.packageinstaller/u0a22}
+2021-06-20 22:57:25.804 1535-1751/system_process D/ActivityManager: Making empty: ProcessRecord{19034a6 2326:com.android.onetimeinitializer/u0a18}
+2021-06-20 22:57:25.804 1535-1751/system_process D/ActivityManager: Making empty: ProcessRecord{2a09db4 2031:com.android.smspush/u0a59}
+2021-06-20 22:57:25.804 1535-1751/system_process D/ActivityManager: Making fixed: ProcessRecord{3586298 1719:com.android.phone/1001}
+2021-06-20 22:57:25.804 1535-1751/system_process D/ActivityManager: Raise to service: ProcessRecord{2a09db4 2031:com.android.smspush/u0a59}, due to ProcessRecord{3586298 1719:com.android.phone/1001} adj=100 procState=6
+2021-06-20 22:57:25.804 1535-1751/system_process D/ActivityManager: Making fixed: ProcessRecord{d3bcf98 1640:com.android.systemui/u0a27}
+2021-06-20 22:57:25.804 1535-1751/system_process D/ActivityManager: oom: memFactor=0 last=0 allowLow=false numProcs=22 last=22
+2021-06-20 22:57:25.804 1535-1751/system_process D/ActivityManager: Did OOM ADJ in 1ms
+2021-06-20 22:57:25.805 1535-1751/system_process D/ActivityManager: Making top: ProcessRecord{ccc7e95 3115:com.panzq.applicationb/u0a63}
+2021-06-20 22:57:25.805 1535-1751/system_process D/ActivityManager: Making empty: ProcessRecord{a398903 1633:com.android.inputmethod.latin/u0a56}
+2021-06-20 22:57:25.805 1535-1751/system_process D/ActivityManager: Making fixed: ProcessRecord{ac17fb7 1535:system/1000}
+2021-06-20 22:57:25.805 1535-1751/system_process D/ActivityManager: Raise to service: ProcessRecord{a398903 1633:com.android.inputmethod.latin/u0a56}, due to ProcessRecord{ac17fb7 1535:system/1000} adj=100 procState=7
+2021-06-20 22:57:25.805 1535-1751/system_process D/ActivityManager: Making empty: ProcessRecord{3b1094a 2026:com.android.launcher/u0a15}
+2021-06-20 22:57:25.805 1535-1751/system_process D/ActivityManager: Raise to cached activity: ProcessRecord{3b1094a 2026:com.android.launcher/u0a15}
+2021-06-20 22:57:25.805 1535-1751/system_process D/ActivityManager: Raise to home: ProcessRecord{3b1094a 2026:com.android.launcher/u0a15}
+2021-06-20 22:57:25.805 1535-1751/system_process D/ActivityManager: Raise to home: ProcessRecord{3b1094a 2026:com.android.launcher/u0a15}
+2021-06-20 22:57:25.806 1535-1751/system_process D/ActivityManager: Making empty: ProcessRecord{e5ef7f6 2894:com.android.shell/2000}
+2021-06-20 22:57:25.806 1535-1751/system_process D/ActivityManager: Making empty: ProcessRecord{261a3b4 2606:com.android.defcontainer/u0a6}
+2021-06-20 22:57:25.806 1535-1751/system_process D/ActivityManager: Making empty: ProcessRecord{7b2bcfe 2160:android.process.acore/u0a1}
+2021-06-20 22:57:25.806 1535-1751/system_process D/ActivityManager: Making empty: ProcessRecord{c0c7a26 2636:com.android.gallery3d/u0a46}
+2021-06-20 22:57:25.806 1535-1751/system_process D/ActivityManager: Making empty: ProcessRecord{24bfd64 2095:com.android.keychain/1000}
+2021-06-20 22:57:25.806 1535-1751/system_process D/ActivityManager: Making empty: ProcessRecord{17c2ac3 2244:com.android.dialer/u0a14}
+2021-06-20 22:57:25.806 1535-1751/system_process D/ActivityManager: Making empty: ProcessRecord{323766a 2212:com.android.providers.calendar/u0a2}
+2021-06-20 22:57:25.806 1535-1751/system_process D/ActivityManager: Making empty: ProcessRecord{9c37022 2267:com.android.email/u0a45}
+2021-06-20 22:57:25.806 1535-1751/system_process D/ActivityManager: Making empty: ProcessRecord{e61d6d8 1932:com.android.cellbroadcastreceiver/u0a7}
+2021-06-20 22:57:25.806 1535-1751/system_process D/ActivityManager: Making empty: ProcessRecord{84350bd 1885:com.android.deskclock/u0a44}
+2021-06-20 22:57:25.806 1535-1751/system_process D/ActivityManager: Making empty: ProcessRecord{bb8c04f 1745:com.android.settings/1000}
+2021-06-20 22:57:25.806 1535-1751/system_process D/ActivityManager: Making empty: ProcessRecord{be07d56 1998:android.process.media/u0a11}
+2021-06-20 22:57:25.806 1535-1751/system_process D/ActivityManager: Making empty: ProcessRecord{a35d0b8 2305:com.android.messaging/u0a60}
+2021-06-20 22:57:25.806 1535-1751/system_process D/ActivityManager: Making empty: ProcessRecord{6292530 2345:com.android.packageinstaller/u0a22}
+2021-06-20 22:57:25.806 1535-1751/system_process D/ActivityManager: Making empty: ProcessRecord{19034a6 2326:com.android.onetimeinitializer/u0a18}
+2021-06-20 22:57:25.806 1535-1751/system_process D/ActivityManager: Making empty: ProcessRecord{2a09db4 2031:com.android.smspush/u0a59}
+2021-06-20 22:57:25.807 1535-1751/system_process D/ActivityManager: Making fixed: ProcessRecord{3586298 1719:com.android.phone/1001}
+2021-06-20 22:57:25.807 1535-1751/system_process D/ActivityManager: Raise to service: ProcessRecord{2a09db4 2031:com.android.smspush/u0a59}, due to ProcessRecord{3586298 1719:com.android.phone/1001} adj=100 procState=6
+2021-06-20 22:57:25.807 1535-1751/system_process D/ActivityManager: Making fixed: ProcessRecord{d3bcf98 1640:com.android.systemui/u0a27}
+2021-06-20 22:57:25.807 1535-1751/system_process D/ActivityManager: oom: memFactor=0 last=0 allowLow=false numProcs=22 last=22
+2021-06-20 22:57:25.807 1535-1751/system_process D/ActivityManager: Did OOM ADJ in 2ms
+2021-06-20 22:57:33.289 1535-3077/system_process V/ActivityManager: Broadcast sticky: Intent { act=android.intent.action.SIG_STR flg=0x10 (has extras) } ordered=false userid=-1
+2021-06-20 22:57:33.289 1535-3077/system_process V/ActivityManager: Enqueueing broadcast: android.intent.action.SIG_STR replacePending=false
+2021-06-20 22:57:34.521 1535-3077/system_process V/ActivityManager: Broadcast sticky: Intent { act=android.intent.action.SIG_STR flg=0x10 (has extras) } ordered=false userid=-1
+2021-06-20 22:57:34.521 1535-3077/system_process V/ActivityManager: Enqueueing broadcast: android.intent.action.SIG_STR replacePending=false
+2021-06-20 22:57:34.730 1366-1366/? I/qemu-props: start adbd ...
