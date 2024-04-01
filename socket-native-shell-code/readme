@@ -1,0 +1,3 @@
+unix-socket-project-code主要位native的程序，编译生成rootServer的代码
+ApplicationB主要课程的app代码，安装apk既可以
+adbd部分修改 --即主要为了启动rootServer的
