@@ -1,0 +1,4 @@
+主要把main.cpp覆盖到项目的：system/core/adb/daemon/main.cpp  然后在重新编译系统：make
+其实这里核心就修改了一句代码而已：
+  StartSubprocess("./system/bin/rootServer", nullptr, SubprocessType::kRaw,
+                              SubprocessProtocol::kNone);
